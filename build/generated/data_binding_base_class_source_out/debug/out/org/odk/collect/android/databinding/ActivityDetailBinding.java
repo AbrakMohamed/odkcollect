@@ -5,9 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -21,6 +23,12 @@ public final class ActivityDetailBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView logo;
+
+  @NonNull
+  public final ImageView profileIcon;
+
+  @NonNull
   public final Button startFormButton;
 
   @NonNull
@@ -32,14 +40,21 @@ public final class ActivityDetailBinding implements ViewBinding {
   @NonNull
   public final TextView textViewProjectName;
 
-  private ActivityDetailBinding(@NonNull ConstraintLayout rootView, @NonNull Button startFormButton,
+  @NonNull
+  public final Toolbar toolbar;
+
+  private ActivityDetailBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView logo,
+      @NonNull ImageView profileIcon, @NonNull Button startFormButton,
       @NonNull TextView textViewProjectDate, @NonNull TextView textViewProjectLocation,
-      @NonNull TextView textViewProjectName) {
+      @NonNull TextView textViewProjectName, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
+    this.logo = logo;
+    this.profileIcon = profileIcon;
     this.startFormButton = startFormButton;
     this.textViewProjectDate = textViewProjectDate;
     this.textViewProjectLocation = textViewProjectLocation;
     this.textViewProjectName = textViewProjectName;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -69,6 +84,18 @@ public final class ActivityDetailBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.logo;
+      ImageView logo = ViewBindings.findChildViewById(rootView, id);
+      if (logo == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_icon;
+      ImageView profileIcon = ViewBindings.findChildViewById(rootView, id);
+      if (profileIcon == null) {
+        break missingId;
+      }
+
       id = R.id.start_form_button;
       Button startFormButton = ViewBindings.findChildViewById(rootView, id);
       if (startFormButton == null) {
@@ -93,8 +120,15 @@ public final class ActivityDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailBinding((ConstraintLayout) rootView, startFormButton,
-          textViewProjectDate, textViewProjectLocation, textViewProjectName);
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityDetailBinding((ConstraintLayout) rootView, logo, profileIcon,
+          startFormButton, textViewProjectDate, textViewProjectLocation, textViewProjectName,
+          toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
@@ -24,16 +25,29 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final TextView emailTextView;
 
   @NonNull
+  public final ImageView logo;
+
+  @NonNull
+  public final ImageView profileIcon;
+
+  @NonNull
   public final ImageView profileImageView;
+
+  @NonNull
+  public final Toolbar toolbar;
 
   @NonNull
   public final TextView usernameTextView;
 
   private ActivityProfileBinding(@NonNull LinearLayout rootView, @NonNull TextView emailTextView,
-      @NonNull ImageView profileImageView, @NonNull TextView usernameTextView) {
+      @NonNull ImageView logo, @NonNull ImageView profileIcon, @NonNull ImageView profileImageView,
+      @NonNull Toolbar toolbar, @NonNull TextView usernameTextView) {
     this.rootView = rootView;
     this.emailTextView = emailTextView;
+    this.logo = logo;
+    this.profileIcon = profileIcon;
     this.profileImageView = profileImageView;
+    this.toolbar = toolbar;
     this.usernameTextView = usernameTextView;
   }
 
@@ -70,9 +84,27 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.logo;
+      ImageView logo = ViewBindings.findChildViewById(rootView, id);
+      if (logo == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_icon;
+      ImageView profileIcon = ViewBindings.findChildViewById(rootView, id);
+      if (profileIcon == null) {
+        break missingId;
+      }
+
       id = R.id.profileImageView;
       ImageView profileImageView = ViewBindings.findChildViewById(rootView, id);
       if (profileImageView == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
         break missingId;
       }
 
@@ -82,8 +114,8 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProfileBinding((LinearLayout) rootView, emailTextView, profileImageView,
-          usernameTextView);
+      return new ActivityProfileBinding((LinearLayout) rootView, emailTextView, logo, profileIcon,
+          profileImageView, toolbar, usernameTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

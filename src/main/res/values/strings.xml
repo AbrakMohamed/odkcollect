@@ -59,6 +59,10 @@
     <string name="rubric_title">Rubric Title</string>
     <string name="validate">Valider</string>
     <string name="saved_projects">Projets Sauvegardés</string>
+    <string name="project_name">Project Name</string>
+    <string name="project_details_title">Project Details: %1$s</string>
+    <string name="question_text_with_answer">%1$s: %2$s</string>
+    <string name="demarrer">demarrer</string>
 
 
 </resources>

@@ -1,18 +1,14 @@
 package org.odk.collect.android.activities;
 
-
-
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.bumptech.glide.Glide;
-
 import org.odk.collect.android.R;
 
-public class ProfileActivity extends AppCompatActivity {
+public class ProfileActivity extends BaseActivity {
 
     private ImageView profileImageView;
     private TextView usernameTextView;
@@ -22,6 +18,8 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
+        setupToolbar();
 
         profileImageView = findViewById(R.id.profileImageView);
         usernameTextView = findViewById(R.id.usernameTextView);
@@ -53,4 +51,3 @@ public class ProfileActivity extends AppCompatActivity {
         }
     }
 }
-

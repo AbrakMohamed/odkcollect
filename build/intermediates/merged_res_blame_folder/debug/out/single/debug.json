@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\select_item_border.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_baseline_notifications_24.xml.flat",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_baseline_notifications_24.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\menu_changes_reason_dialog.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\menu\\changes_reason_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_baseline_notifications_24.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_rating_widget_answer.xml.flat",
@@ -604,6 +604,10 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\ex_arbitrary_file_widget_answer.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_activity_project_details.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\activity_project_details.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_main_menu_activity.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\main_menu_activity.xml"
     },
@@ -698,10 +702,6 @@
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_form_chooser_list.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\form_chooser_list.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-merged_res-101:/menu_profile_menu.xml.flat",
-        "source": "org.odk.collect.android.collect_app-main-103:/menu/profile_menu.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\xml_project_display_preferences.xml.flat",
@@ -978,6 +978,10 @@
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_orange_logo.png.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\orange_logo.png"
+    },
+    {
+        "merged": "org.odk.collect.android.collect_app-merged_res-101:/layout_fragment_rubric.xml.flat",
+        "source": "org.odk.collect.android.collect_app-main-103:/layout/fragment_rubric.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_form_map_activity.xml.flat",

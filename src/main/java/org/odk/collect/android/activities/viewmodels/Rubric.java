@@ -19,4 +19,15 @@ public class Rubric implements Serializable {
     public List<Question> getQuestions() {
         return questions;
     }
+
+    public boolean isCompleted() {
+        for (Question question : questions) {
+            if (!question.isAnswered()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
 }

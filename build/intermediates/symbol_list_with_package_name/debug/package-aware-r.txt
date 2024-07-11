@@ -4739,6 +4739,7 @@ layout activity_home
 layout activity_main
 layout activity_preferences_layout
 layout activity_profile
+layout activity_project_details
 layout activity_saved_projects
 layout activity_web_view
 layout add_entities_dialog_layout
@@ -5816,6 +5817,7 @@ string delete_repeat_no
 string delete_yes
 string deleted_form
 string deleted_on_date_at_time
+string demarrer
 string dest_title
 string dev_tools
 string device_defined
@@ -6452,6 +6454,7 @@ string profile
 string profile_activity
 string project_color
 string project_config_tip
+string project_details_title
 string project_display_subtext
 string project_display_title
 string project_icon
@@ -6471,6 +6474,7 @@ string qrcode_with_admin_password
 string qrcode_with_both_passwords
 string qrcode_with_server_password
 string qrcode_without_passwords
+string question_text_with_answer
 string quit_application
 string quit_form_continue_title
 string quit_form_title

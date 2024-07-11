@@ -1,9 +1,8 @@
 package org.odk.collect.android.activities;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -15,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class SavedProjectsActivity extends AppCompatActivity {
+public class SavedProjectsActivity extends BaseActivity implements SavedProjectAdapter.OnItemClickListener {
 
     private RecyclerView recyclerViewSavedProjects;
     private SavedProjectAdapter savedProjectAdapter;
@@ -26,13 +25,15 @@ public class SavedProjectsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saved_projects);
 
+        setupToolbar();
+
         recyclerViewSavedProjects = findViewById(R.id.recyclerViewSavedProjects);
         recyclerViewSavedProjects.setLayoutManager(new LinearLayoutManager(this));
 
         // Charger la liste des projets enregistrés
         savedProjectList = loadSavedProjects();
 
-        savedProjectAdapter = new SavedProjectAdapter(savedProjectList);
+        savedProjectAdapter = new SavedProjectAdapter(savedProjectList, this);
         recyclerViewSavedProjects.setAdapter(savedProjectAdapter);
     }
 
@@ -45,5 +46,14 @@ public class SavedProjectsActivity extends AppCompatActivity {
             projects.add(new SavedProject(entry.getKey(), entry.getValue().toString()));
         }
         return projects;
+    }
+
+    @Override
+    public void onItemClick(SavedProject project) {
+        // Créez une intention pour démarrer ProjectDetailsActivity
+        Intent intent = new Intent(this, ProjectDetailsActivity.class);
+        intent.putExtra("projectName", project.getProjectName());
+        // Vous pouvez ajouter d'autres informations ici si nécessaire
+        startActivity(intent);
     }
 }

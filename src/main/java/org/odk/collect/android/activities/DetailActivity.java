@@ -14,8 +14,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class DetailActivity extends AppCompatActivity {
-
+public class DetailActivity extends BaseActivity {
 
     private ProjectForm projectForm;
 
@@ -23,6 +22,8 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
+        setupToolbar();
 
         TextView textViewProjectName = findViewById(R.id.textViewProjectName);
         TextView textViewProjectLocation = findViewById(R.id.textViewProjectLocation);
@@ -79,6 +80,27 @@ public class DetailActivity extends AppCompatActivity {
                 ));
                 rubrics.add(createRubric("Rubric 2",
                         new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C"))
+                ));
+                break;
+
+            case "Nom projet 4":
+                rubrics.add(createRubric("Rubric 1",
+                        new Question("Question 1", "checkbox", Arrays.asList("Rep A","Rep B","Rep C","Rep D")),
+                        new Question("Question 2", "radio", Arrays.asList("Rep A", "Rep B", "Rep C"))
+                ));
+                rubrics.add(createRubric("Rubric 2",
+                        new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C"))
+                ));
+                break;
+
+            case "Nom projet 5":
+                rubrics.add(createRubric("Rubric 1",
+                        new Question("Question 1", "checkbox", Arrays.asList("Rep A","Rep B","Rep C","Rep D")),
+                        new Question("Question 2", "radio", Arrays.asList("Rep A", "Rep B", "Rep C"))
+                ));
+                rubrics.add(createRubric("Rubric 2",
+                        new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C")),
+                        new Question("Question 3", "radio", Arrays.asList("Rep A", "Rep B"))
                 ));
                 break;
 

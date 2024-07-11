@@ -4,8 +4,10 @@ package org.odk.collect.android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
@@ -20,12 +22,25 @@ public final class ActivitySavedProjectsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView logo;
+
+  @NonNull
+  public final ImageView profileIcon;
+
+  @NonNull
   public final RecyclerView recyclerViewSavedProjects;
 
-  private ActivitySavedProjectsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView recyclerViewSavedProjects) {
+  @NonNull
+  public final Toolbar toolbar;
+
+  private ActivitySavedProjectsBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView logo,
+      @NonNull ImageView profileIcon, @NonNull RecyclerView recyclerViewSavedProjects,
+      @NonNull Toolbar toolbar) {
     this.rootView = rootView;
+    this.logo = logo;
+    this.profileIcon = profileIcon;
     this.recyclerViewSavedProjects = recyclerViewSavedProjects;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -55,14 +70,32 @@ public final class ActivitySavedProjectsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.logo;
+      ImageView logo = ViewBindings.findChildViewById(rootView, id);
+      if (logo == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_icon;
+      ImageView profileIcon = ViewBindings.findChildViewById(rootView, id);
+      if (profileIcon == null) {
+        break missingId;
+      }
+
       id = R.id.recyclerViewSavedProjects;
       RecyclerView recyclerViewSavedProjects = ViewBindings.findChildViewById(rootView, id);
       if (recyclerViewSavedProjects == null) {
         break missingId;
       }
 
-      return new ActivitySavedProjectsBinding((ConstraintLayout) rootView,
-          recyclerViewSavedProjects);
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivitySavedProjectsBinding((ConstraintLayout) rootView, logo, profileIcon,
+          recyclerViewSavedProjects, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

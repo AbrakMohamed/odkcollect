@@ -220,6 +220,7 @@
     <string name="creating_user_message" translatable="false">Creating user...</string>
     <string name="date">Date</string>
     <string name="default_web_client_id" translatable="false">462257085307-o9ll0ogq8jm4ta3q9av2mf2rh4ume9vj.apps.googleusercontent.com</string>
+    <string name="demarrer">demarrer</string>
     <string name="email">email</string>
     <string name="enter_otp">Enter OTP</string>
     <string name="enter_your_phone">Enter_your_phone</string>
@@ -260,8 +261,11 @@
     <string name="pro">Nom du projet</string>
     <string name="profile">profile</string>
     <string name="profile_activity" translatable="false">Profile Activity</string>
+    <string name="project_details_title">Project Details: %1$s</string>
     <string name="project_id" translatable="false">opendatakit-debug</string>
+    <string name="project_name">Project Name</string>
     <string name="projet">projet</string>
+    <string name="question_text_with_answer">%1$s: %2$s</string>
     <string name="rubric_title">Rubric Title</string>
     <string name="saved_projects">Projets Sauvegardés</string>
     <string name="se_connecter">Se connecter</string>

@@ -230,6 +230,7 @@ id configure_manually_button
 id configure_via_qr_button
 id confirmPasswordEditText
 id constraintLayout
+id container
 id content
 id controls
 id creating_user_message
@@ -496,6 +497,7 @@ layout activity_home
 layout activity_main
 layout activity_preferences_layout
 layout activity_profile
+layout activity_project_details
 layout activity_saved_projects
 layout activity_web_view
 layout admin_password_dialog_layout
@@ -639,6 +641,7 @@ string connect
 string creating_user_message
 string date
 string default_web_client_id
+string demarrer
 string email
 string enter_otp
 string enter_your_phone
@@ -679,8 +682,11 @@ string password2
 string pro
 string profile
 string profile_activity
+string project_details_title
 string project_id
+string project_name
 string projet
+string question_text_with_answer
 string rubric_title
 string saved_projects
 string se_connecter

@@ -15,9 +15,15 @@ import java.util.List;
 public class SavedProjectAdapter extends RecyclerView.Adapter<SavedProjectAdapter.ViewHolder> {
 
     private List<SavedProject> savedProjectList;
+    private OnItemClickListener listener;
 
-    public SavedProjectAdapter(List<SavedProject> savedProjectList) {
+    public interface OnItemClickListener {
+        void onItemClick(SavedProject project);
+    }
+
+    public SavedProjectAdapter(List<SavedProject> savedProjectList, OnItemClickListener listener) {
         this.savedProjectList = savedProjectList;
+        this.listener = listener;
     }
 
     @NonNull
@@ -32,6 +38,7 @@ public class SavedProjectAdapter extends RecyclerView.Adapter<SavedProjectAdapte
         SavedProject savedProject = savedProjectList.get(position);
         holder.textViewProjectName.setText(savedProject.getProjectName());
         holder.textViewProjectStatus.setText(savedProject.getProjectStatus());
+        holder.bind(savedProject, listener);
     }
 
     @Override
@@ -48,6 +55,15 @@ public class SavedProjectAdapter extends RecyclerView.Adapter<SavedProjectAdapte
             super(itemView);
             textViewProjectName = itemView.findViewById(R.id.textViewProjectName);
             textViewProjectStatus = itemView.findViewById(R.id.textViewProjectStatus);
+        }
+
+        public void bind(final SavedProject project, final OnItemClickListener listener) {
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    listener.onItemClick(project);
+                }
+            });
         }
     }
 }

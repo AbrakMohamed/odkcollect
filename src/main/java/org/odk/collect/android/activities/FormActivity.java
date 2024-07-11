@@ -1,6 +1,5 @@
 package org.odk.collect.android.activities;
 
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -57,9 +56,21 @@ public class FormActivity extends AppCompatActivity {
         }
     }
 
+    private boolean isFormComplete() {
+        // Logique pour vérifier si toutes les rubriques/questions ont été répondues
+        for (Rubric rubric : rubrics) {
+            if (!rubric.isCompleted()) { // Assurez-vous que Rubric a une méthode isCompleted
+                return false;
+            }
+        }
+        return true;
+    }
+
     public void validateForm() {
-        // Enregistrer les réponses du formulaire ici
-        saveProject();
+        boolean isComplete = isFormComplete();
+
+        // Enregistrer les réponses du formulaire ici avec l'état approprié
+        saveProject(isComplete);
 
         // Retourner à HomeActivity
         Intent intent = new Intent(this, HomeActivity.class);
@@ -68,16 +79,15 @@ public class FormActivity extends AppCompatActivity {
         finish();
     }
 
-    private void saveProject() {
+    private void saveProject(boolean isComplete) {
         // Sauvegarder le projet avec ses réponses
         // Vous pouvez utiliser une base de données locale, un fichier, ou une autre méthode de stockage
 
         // Exemple simple de sauvegarde dans les préférences partagées
         SharedPreferences prefs = getSharedPreferences("saved_projects", MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
-        editor.putString(projectForm.getProjectName(), "validé"); // ou "en cours de validation" selon les réponses
+        String status = isComplete ? "validé" : "non validé";
+        editor.putString(projectForm.getProjectName(), status);
         editor.apply();
     }
 }
-
-
