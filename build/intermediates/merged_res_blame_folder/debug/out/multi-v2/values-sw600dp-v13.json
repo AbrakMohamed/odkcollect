@@ -4,7 +4,7 @@
             "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-99:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\7c17db96b45da0d15eb6c06819b2ba09\\transformed\\material-1.11.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\eae898eb2c0642c847b261d63fc5a241\\transformed\\material-1.11.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\21e7c0a61d3c50c9a54648ed194f2120\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\a4a11bfbc3598a56fe0cc8242834e212\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -4,11 +4,9 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import org.odk.collect.android.database.forms.FormDatabaseMigrator;
-
 public class DatabaseHelper extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "odk.db";
-    private static final int DATABASE_VERSION = 13;
+    private static final String DATABASE_NAME = "odk_collect.db";
+    private static final int DATABASE_VERSION = 2; // Incrémentez la version de la base de données
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -16,20 +14,19 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        new FormDatabaseMigrator().onCreate(db);
-        createUsersTable(db);  // Ajoutez cette ligne pour créer la table des utilisateurs
+        String createTableUsers = "CREATE TABLE users (" +
+                "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "username TEXT, " +
+                "password TEXT, " +
+                "email TEXT, " + // Ajouter le champ email
+                "phone_number TEXT)";
+        db.execSQL(createTableUsers);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        new FormDatabaseMigrator().onUpgrade(db, oldVersion);
-        // Ajoutez la gestion de l'upgrade pour la table des utilisateurs si nécessaire
-    }
-
-    private void createUsersTable(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE IF NOT EXISTS users (" +
-                "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "username TEXT NOT NULL, " +
-                "password TEXT NOT NULL);");
+        if (oldVersion < 2) {
+            db.execSQL("ALTER TABLE users ADD COLUMN email TEXT"); // Ajout du champ email lors de la mise à niveau
+        }
     }
 }

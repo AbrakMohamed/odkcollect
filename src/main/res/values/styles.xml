@@ -7,6 +7,9 @@
         <item name="android:padding">@dimen/margin_standard</item>
         <item name="android:textAppearance">@style/TextAppearance.Collect.Body1</item>
         <item name="android:textColor">?colorOnSurface</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">

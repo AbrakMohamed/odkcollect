@@ -4,6 +4,8 @@ package org.odk.collect.android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,10 +22,28 @@ public final class ActivityMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button idBtnGetOtp;
+
+  @NonNull
+  public final Button idBtnVerify;
+
+  @NonNull
+  public final EditText idEdtOtp;
+
+  @NonNull
+  public final EditText idEdtPhoneNumber;
+
+  @NonNull
   public final TextView welcomeText;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull TextView welcomeText) {
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button idBtnGetOtp,
+      @NonNull Button idBtnVerify, @NonNull EditText idEdtOtp, @NonNull EditText idEdtPhoneNumber,
+      @NonNull TextView welcomeText) {
     this.rootView = rootView;
+    this.idBtnGetOtp = idBtnGetOtp;
+    this.idBtnVerify = idBtnVerify;
+    this.idEdtOtp = idEdtOtp;
+    this.idEdtPhoneNumber = idEdtPhoneNumber;
     this.welcomeText = welcomeText;
   }
 
@@ -54,13 +74,38 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.idBtnGetOtp;
+      Button idBtnGetOtp = ViewBindings.findChildViewById(rootView, id);
+      if (idBtnGetOtp == null) {
+        break missingId;
+      }
+
+      id = R.id.idBtnVerify;
+      Button idBtnVerify = ViewBindings.findChildViewById(rootView, id);
+      if (idBtnVerify == null) {
+        break missingId;
+      }
+
+      id = R.id.idEdtOtp;
+      EditText idEdtOtp = ViewBindings.findChildViewById(rootView, id);
+      if (idEdtOtp == null) {
+        break missingId;
+      }
+
+      id = R.id.idEdtPhoneNumber;
+      EditText idEdtPhoneNumber = ViewBindings.findChildViewById(rootView, id);
+      if (idEdtPhoneNumber == null) {
+        break missingId;
+      }
+
       id = R.id.welcome_text;
       TextView welcomeText = ViewBindings.findChildViewById(rootView, id);
       if (welcomeText == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, welcomeText);
+      return new ActivityMainBinding((LinearLayout) rootView, idBtnGetOtp, idBtnVerify, idEdtOtp,
+          idEdtPhoneNumber, welcomeText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

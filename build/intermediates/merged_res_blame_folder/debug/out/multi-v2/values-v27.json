@@ -4,7 +4,7 @@
             "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-99:/values-v27/values-v27.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\c159727e010c5c8c2125f2521118bdfd\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-v27\\values-v27.xml",
+                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\a7d49c304cd612e96e4b39fa8bd72153\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-v27\\values-v27.xml",
                     "from": {
                         "startLines": "2,3,4,7",
                         "startColumns": "4,4,4,4",

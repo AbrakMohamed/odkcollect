@@ -4,7 +4,7 @@
             "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-99:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\21e7c0a61d3c50c9a54648ed194f2120\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\a4a11bfbc3598a56fe0cc8242834e212\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

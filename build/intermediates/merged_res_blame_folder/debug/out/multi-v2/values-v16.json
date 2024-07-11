@@ -4,7 +4,7 @@
             "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-99:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\21e7c0a61d3c50c9a54648ed194f2120\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\a4a11bfbc3598a56fe0cc8242834e212\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\5fa5772c12eb493f1d9bfcec2c1fcbf9\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\e4a72b4dd13d512e0e7a746df9f1fc30\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

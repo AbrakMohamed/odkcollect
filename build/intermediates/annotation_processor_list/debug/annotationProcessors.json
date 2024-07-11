@@ -1,1 +1,1 @@
-{"dagger-compiler-2.50.jar (com.google.dagger:dagger-compiler:2.50)":"KSP_PROCESSOR","dagger-android-processor-2.50.jar (com.google.dagger:dagger-android-processor:2.50)":"KSP_PROCESSOR"}
+{"compiler-4.12.0.jar (com.github.bumptech.glide:compiler:4.12.0)":"INCREMENTAL_AP","dagger-compiler-2.50.jar (com.google.dagger:dagger-compiler:2.50)":"KSP_PROCESSOR","dagger-android-processor-2.50.jar (com.google.dagger:dagger-android-processor:2.50)":"KSP_PROCESSOR"}

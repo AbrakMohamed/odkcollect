@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -18,7 +18,7 @@ import org.odk.collect.android.R;
 
 public final class LoginActivityBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final Button loginButton;
@@ -29,7 +29,7 @@ public final class LoginActivityBinding implements ViewBinding {
   @NonNull
   public final EditText username;
 
-  private LoginActivityBinding(@NonNull LinearLayout rootView, @NonNull Button loginButton,
+  private LoginActivityBinding(@NonNull RelativeLayout rootView, @NonNull Button loginButton,
       @NonNull EditText password, @NonNull EditText username) {
     this.rootView = rootView;
     this.loginButton = loginButton;
@@ -39,7 +39,7 @@ public final class LoginActivityBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -82,7 +82,7 @@ public final class LoginActivityBinding implements ViewBinding {
         break missingId;
       }
 
-      return new LoginActivityBinding((LinearLayout) rootView, loginButton, password, username);
+      return new LoginActivityBinding((RelativeLayout) rootView, loginButton, password, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

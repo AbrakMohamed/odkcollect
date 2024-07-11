@@ -1550,6 +1550,7 @@ color color6
 color color7
 color color8
 color color9
+color colorAccent
 color colorError
 color colorErrorContainer
 color colorOnErrorContainer
@@ -1560,6 +1561,7 @@ color colorOnSurfaceInverse
 color colorOnSurfaceVariant
 color colorPrimary
 color colorPrimaryContainer
+color colorPrimaryDark
 color colorPrimaryInverse
 color colorSurface
 color colorSurfaceContainer
@@ -3216,6 +3218,7 @@ dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
 dimen touch_target_size
+drawable _j0gf03cb9c2bz5xfd6ptycfohe
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -3336,9 +3339,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_text_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_access_time
+drawable ic_account_circle
 drawable ic_add_circle_24
 drawable ic_add_location
 drawable ic_add_white_24
@@ -3430,6 +3435,7 @@ drawable ic_form_state_submitted
 drawable ic_information_outline
 drawable ic_keyboard_black_24dp
 drawable ic_layers
+drawable ic_logo
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -3484,9 +3490,11 @@ drawable ic_outline_warning_accent_24
 drawable ic_outline_website_24
 drawable ic_pause_24dp
 drawable ic_pause_36
+drawable ic_person
 drawable ic_person_24dp
 drawable ic_photo_camera
 drawable ic_play_arrow_24dp
+drawable ic_profile_placeholder
 drawable ic_repeat
 drawable ic_room_24dp
 drawable ic_room_form_state_complete_24dp
@@ -3508,6 +3516,7 @@ drawable ic_sort_by_last_saved
 drawable ic_splash_screen_icon
 drawable ic_stop_black_24dp
 drawable ic_storage
+drawable ic_user
 drawable ic_visibility
 drawable ic_volume_up_black_24dp
 drawable icon_background
@@ -3593,6 +3602,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable nav_header_background
 drawable navigation_empty_icon
 drawable navto_small
 drawable next
@@ -3611,6 +3621,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable odk_logo
+drawable orange_logo
 drawable osm_ic_center_map
 drawable osm_ic_follow_me
 drawable osm_ic_follow_me_on
@@ -3748,6 +3759,7 @@ id autoCompleteToStart
 id auto_interval
 id auto_options
 id automatic_mode
+id backButton
 id backspace
 id banner
 id barcode_answer_text
@@ -3791,6 +3803,8 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id changePasswordButton
+id change_password
 id checkBox
 id checkBox2
 id check_box
@@ -3838,6 +3852,7 @@ id compress
 id config_tip
 id configure_manually_button
 id configure_via_qr_button
+id confirmPasswordEditText
 id confirm_button
 id constraintLayout
 id container
@@ -3851,6 +3866,7 @@ id counterclockwise
 id cradle
 id creating_user_message
 id currentDuration
+id currentPasswordEditText
 id current_accuracy
 id current_color
 id current_color_container
@@ -3909,6 +3925,7 @@ id edit_query
 id edit_text
 id edit_text_id
 id elastic
+id emailTextView
 id embed
 id empty
 id empty_list_message
@@ -4014,6 +4031,10 @@ id icon
 id icon_frame
 id icon_group
 id icon_only
+id idBtnGetOtp
+id idBtnVerify
+id idEdtOtp
+id idEdtPhoneNumber
 id identity
 id ifRoom
 id ignore
@@ -4114,6 +4135,7 @@ id location_info
 id location_status
 id login_button
 id logo
+id logout
 id ltr
 id m3_side_sheet
 id main
@@ -4217,7 +4239,9 @@ id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
 id never
+id newPasswordEditText
 id new_item
+id next_button
 id noScroll
 id no_licenses_text
 id none
@@ -4293,6 +4317,8 @@ id preview
 id primary_text
 id print_button
 id printer_button
+id profileImageView
+id profile_icon
 id progressBar
 id progress_bar
 id progress_circular
@@ -4311,6 +4337,7 @@ id pwd_label
 id question_label
 id question_widget_container
 id questionholder
+id questions_container
 id radio
 id radio_group
 id rank_item_text
@@ -4328,6 +4355,8 @@ id recording_icon
 id recording_status
 id rectangles
 id recyclerView
+id recyclerViewProjects
+id recyclerViewSavedProjects
 id recycler_view
 id refresh_button
 id remove
@@ -4344,6 +4373,7 @@ id row
 id row_index_key
 id row_reverse
 id rtl
+id rubric_title
 id satellite
 id satellites
 id save
@@ -4352,6 +4382,7 @@ id save_changes
 id save_explanation
 id save_non_transition_alpha
 id save_overlay_view
+id saved_projects
 id sawtooth
 id scale
 id screen
@@ -4420,6 +4451,7 @@ id start
 id startHorizontal
 id startToEnd
 id startVertical
+id start_form_button
 id staticLayout
 id staticPostLayout
 id status
@@ -4463,6 +4495,13 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewDate
+id textViewLocation
+id textViewName
+id textViewProjectDate
+id textViewProjectLocation
+id textViewProjectName
+id textViewProjectStatus
 id text_container
 id text_input_end_icon
 id text_input_error_icon
@@ -4518,6 +4557,7 @@ id url_button
 id url_input_text
 id useLogo
 id username
+id usernameTextView
 id username_edit
 id username_input_text
 id valueView
@@ -4525,6 +4565,7 @@ id version_sha
 id videoButton
 id viewPager
 id view_offset_helper
+id view_profile
 id view_sent_forms
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
@@ -4688,11 +4729,17 @@ layout about_layout
 layout accuracy_status
 layout activity_blank_form_list
 layout activity_capture_selfie
+layout activity_change_password
 layout activity_create_user
 layout activity_custom_scanner
+layout activity_detail
 layout activity_error
+layout activity_form
+layout activity_home
 layout activity_main
 layout activity_preferences_layout
+layout activity_profile
+layout activity_saved_projects
 layout activity_web_view
 layout add_entities_dialog_layout
 layout admin_password_dialog_layout
@@ -4769,6 +4816,7 @@ layout form_download_list
 layout form_entry
 layout form_entry_end
 layout form_map_activity
+layout fragment_rubric
 layout fragment_scan
 layout geopoint_dialog
 layout geopoint_layout
@@ -4790,6 +4838,8 @@ layout image_widget
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout instance_uploader_list
+layout item_project
+layout item_saved_project
 layout item_view_option
 layout label_widget
 layout leak_canary_about_screen
@@ -4963,6 +5013,7 @@ menu form_hierarchy_menu
 menu form_menu
 menu instance_uploader_menu
 menu main_menu
+menu profile_menu
 menu project_preferences_menu
 menu qr_code_scan_menu
 menu saved_form_list_menu
@@ -5497,6 +5548,9 @@ raw third_party_license_metadata
 raw third_party_licenses
 raw zxing_beep
 string GOOGLE_MAPS_API_KEY
+string _06_05_2024_16_30
+string _06_05_2024_16_31
+string _06_05_2024_17_30
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -5649,10 +5703,14 @@ string change_admin_password
 string change_font_size
 string change_language
 string change_password
+string change_password_activity
 string change_point
 string change_server_url
 string change_username
 string change_view
+string changer_la_photo_de_profil
+string changer_le_mot_de_passe
+string changer_le_mot_de_passe2
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -5703,6 +5761,8 @@ string common_signin_button_text_long
 string compass
 string configure_manually
 string configure_with_qr_code
+string confirmer_le_nouveau_mot_de_passe
+string connect
 string constraint_behavior
 string constraint_behavior_on_finalize
 string constraint_behavior_on_swipe
@@ -5734,6 +5794,7 @@ string dark
 string data
 string data_saved_error
 string data_saved_ok
+string date
 string default_web_client_id
 string define_zxingandroidembedded
 string delete_after_send
@@ -5814,6 +5875,8 @@ string enter_data
 string enter_identity
 string enter_identity_description
 string enter_new_password
+string enter_otp
+string enter_your_phone
 string entities_title
 string entity_browser_button
 string entrez_le_code_de_v_rification_re_u_par_sms
@@ -5949,6 +6012,7 @@ string fs_create_media_folder_error
 string fs_delete_media_path_if_file_error
 string fs_file_copy_error
 string gcm_defaultSenderId
+string geeks_for_geeks_n_welcome_to_home_screen
 string generate
 string geo_clear_warning
 string geo_exit_warning
@@ -5961,6 +6025,7 @@ string get_bearing
 string get_forms
 string get_help_with_reference_layers
 string get_line
+string get_otp
 string get_point
 string get_polygon
 string getting_bearing
@@ -6137,6 +6202,10 @@ string loading
 string loading_form
 string loading_form_failed
 string local_entity_features_summary
+string localisatio
+string localisation
+string localisation2
+string localisationn
 string location_accuracy
 string location_provider
 string location_providers_disabled_dialog_message
@@ -6150,6 +6219,8 @@ string location_tracking_notification_channel_name
 string location_tracking_notification_title
 string login
 string login1
+string login2
+string logout
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -6207,7 +6278,9 @@ string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
 string mic_in_use
 string modified_on_date_at_time
+string mot_de_pass
 string mot_de_passe
+string mot_de_passe_actuel
 string moving_backwards_disabled_message
 string moving_backwards_disabled_title
 string moving_backwards_enabled_message
@@ -6294,6 +6367,10 @@ string no_printer
 string no_time_selected
 string no_value_selected
 string nom_d_utilisateur
+string nom_d_utilisateur2
+string nom_d_utilisateur3
+string nom_projet
+string nom_projett
 string none
 string north
 string noselect_error
@@ -6303,6 +6380,7 @@ string not_granted_permission
 string not_set
 string notification_channel_name
 string notifications
+string nouveau_mot_de_passe
 string null_intent_value
 string number_picker_title
 string odk_forum
@@ -6323,12 +6401,14 @@ string openmap_usgs_sat
 string openmap_usgs_topo
 string or
 string oss_license_title
+string otp
 string outdoors
 string parent_form_not_present
 string parse_error
 string parser_exception
 string password
 string password1
+string password2
 string password_error_whitespace
 string password_toggle_content_description
 string path_password_eye
@@ -6367,6 +6447,9 @@ string preference_not_available
 string preferences_license_summary
 string previously_downloaded_only
 string print
+string pro
+string profile
+string profile_activity
 string project_color
 string project_config_tip
 string project_display_subtext
@@ -6378,6 +6461,7 @@ string project_management_section_title
 string project_name
 string project_settings
 string projects
+string projet
 string protected_settings
 string provider_disabled_error
 string public_transport
@@ -6440,6 +6524,7 @@ string reset_settings_result
 string resume_recording
 string review_data
 string roads_nl
+string rubric_title
 string samples
 string satellite
 string satellites
@@ -6455,6 +6540,7 @@ string save_mid_summary
 string save_point_error
 string saved_forms
 string saved_on_date_at_time
+string saved_projects
 string savepoint_recovery_dialog_message
 string savepoint_recovery_dialog_title
 string savepoint_used
@@ -6540,6 +6626,7 @@ string submission_deleted
 string success
 string success_form_validation
 string successfully_imported_settings
+string suivant
 string summary_collapsed_preference_list
 string survey_internal_error
 string survey_loading_reading_csv_message
@@ -6592,11 +6679,16 @@ string use_device_language
 string user_and_device_identity_settings_subtext
 string user_and_device_identity_title
 string user_defined
+string user_example_com
 string user_interface_settings_subtext
+string user_name
 string user_setting_summary
 string user_settings
+string userexample_com
+string usernam
 string username
 string username1
+string username2
 string username_error_whitespace
 string using_project
 string v7_preference_off
@@ -6604,6 +6696,7 @@ string v7_preference_on
 string v_rifier
 string validate
 string verifier
+string verify_otp
 string version
 string version_number
 string view_data

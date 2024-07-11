@@ -1,4 +1,4 @@
-#Fri Jun 14 16:27:32 WEST 2024
+#Wed Jul 10 17:20:25 WEST 2024
 base.0=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\10\\classes.dex
 base.10=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\4\\classes.dex
@@ -29,6 +29,7 @@ base.32=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermedi
 base.33=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.34=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 base.35=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes4.dex
+base.36=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes5.dex
 base.4=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\13\\classes.dex
 base.5=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\14\\classes.dex
 base.6=C\:\\Users\\Test\\Desktop\\collect-master\\collect_app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\15\\classes.dex
@@ -65,6 +66,7 @@ path.32=classes1000.dex
 path.33=classes2.dex
 path.34=classes3.dex
 path.35=classes4.dex
+path.36=classes5.dex
 path.4=13/classes.dex
 path.5=14/classes.dex
 path.6=15/classes.dex
@@ -101,6 +103,7 @@ renamed.32=classes33.dex
 renamed.33=classes34.dex
 renamed.34=classes35.dex
 renamed.35=classes36.dex
+renamed.36=classes37.dex
 renamed.4=classes5.dex
 renamed.5=classes6.dex
 renamed.6=classes7.dex

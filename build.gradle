@@ -73,6 +73,7 @@ android {
         buildConfig true
     }
 
+
     defaultConfig {
         applicationId('org.odk.collect.android')
         minSdkVersion Versions.android_min_sdk
@@ -223,12 +224,19 @@ configurations.all {
         // Newer Jackson versions cannot be ued until Collect minSDK >= 26 (https://github.com/FasterXML/jackson-databind#android)
         force 'com.fasterxml.jackson.core:jackson-databind:2.13.5'
     }
-    
+
     transitive = true
 }
 
 dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
+    implementation("com.google.firebase:firebase-auth")
     coreLibraryDesugaring Dependencies.desugar
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.google.android.material:material:1.4.0'
+
+
 
     implementation project(':shared')
     implementation project(':androidshared')
@@ -290,7 +298,7 @@ dependencies {
     implementation Dependencies.squareup_okhttp
     implementation Dependencies.squareup_okhttp_tls
     implementation Dependencies.burgstaller_okhttp_digest
-    
+
     implementation Dependencies.persian_joda_time
     implementation Dependencies.myanmar_calendar
     implementation Dependencies.bikram_sambat

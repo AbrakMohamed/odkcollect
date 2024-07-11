@@ -15,4 +15,50 @@
     <string name="username1">Username1</string>
     <string name="password1">Password</string>
     <string name="login1">Login</string>
+    <string name="password2">Password2</string>
+    <string name="login2">Login</string>
+    <string name="otp">OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="username2">Username</string>
+    <string name="usernam">Nom d\'utilisateur</string>
+    <string name="mot_de_pass">Mot de passe</string>
+    <string name="connect">Se connecter</string>
+    <string name="enter_your_phone">Enter_your_phone</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="geeks_for_geeks_n_welcome_to_home_screen">Geeks for Geeks \n Welcome to Home Screen</string>
+    <string name="nom_projet">Nom projet</string>
+    <string name="localisation">Localisation</string>
+    <string name="_06_05_2024_16_30">06/05/2024 à 16:30</string>
+    <string name="nom_projett">Nom projet</string>
+    <string name="localisationn">Localisation</string>
+    <string name="_06_05_2024_16_31">06/05/2024 à 16:30</string>
+    <string name="date">Date</string>
+    <string name="localisatio">Localisation</string>
+    <string name="pro">Nom du projet</string>
+    <string name="projet">projet</string>
+    <string name="localisation2">Localisation</string>
+    <string name="_06_05_2024_17_30">06/05/2024 à 16:30</string>
+    <string name="profile">profile</string>
+    <string name="changer_le_mot_de_passe">Changer le mot de passe</string>
+    <string name="profile_activity" translatable="false">Profile Activity</string>
+    <string name="change_password_activity" translatable="false">Change Password Activity</string>
+    <string name="logout" translatable="false">log out</string>
+    <string name="nom_d_utilisateur2">Nom d\'utilisateur</string>
+    <string name="changer_la_photo_de_profil">Changer la photo de profil</string>
+    <string name="confirmer_le_nouveau_mot_de_passe">Confirmer le nouveau mot de passe</string>
+    <string name="changer_le_mot_de_passe2">Changer le mot de passe</string>
+    <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
+    <string name="mot_de_passe_actuel">Mot de passe actuel</string>
+    <string name="email">email</string>
+    <string name="nom_d_utilisateur3">Nom d\'utilisateur</string>
+    <string name="user_example_com">user@example.com</string>
+    <string name="user_name">User Name</string>
+    <string name="userexample_com">user@example.com</string>
+    <string name="suivant">Suivant</string>
+    <string name="rubric_title">Rubric Title</string>
+    <string name="validate">Valider</string>
+    <string name="saved_projects">Projets Sauvegardés</string>
+
+
 </resources>

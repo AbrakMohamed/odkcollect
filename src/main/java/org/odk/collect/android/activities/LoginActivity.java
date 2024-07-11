@@ -1,7 +1,7 @@
 package org.odk.collect.android.activities;
 
-import android.content.ContentValues;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -31,17 +31,24 @@ public class LoginActivity extends AppCompatActivity {
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 String username = usernameEditText.getText().toString();
                 String password = passwordEditText.getText().toString();
-
                 if (authenticateUser(username, password)) {
-                    Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(LoginActivity.this, FirstLaunchActivity.class);
+                    // Connexion réussie
+                    // Stocker les informations de l'utilisateur dans les préférences partagées
+                    SharedPreferences sharedPreferences = getSharedPreferences("user_prefs", MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString("username", username);
+                    editor.putString("email", getEmailForUser(username)); // Récupérez l'email depuis la base de données
+                    editor.apply();
+
+                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                     startActivity(intent);
-                    finish(); // Optional: call finish to remove LoginActivity from the back stack
+                    finish();
                 } else {
-                    Toast.makeText(LoginActivity.this, "Login failed", Toast.LENGTH_SHORT).show();
+                    // Connexion échouée
+                    Toast.makeText(LoginActivity.this, "Nom d'utilisateur ou mot de passe incorrect", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -51,11 +58,51 @@ public class LoginActivity extends AppCompatActivity {
         DatabaseHelper dbHelper = new DatabaseHelper(this);
         SQLiteDatabase db = dbHelper.getReadableDatabase();
 
-        Cursor cursor = db.query("users", null, "username=? AND password=?", new String[]{username, password}, null, null, null);
-        boolean isAuthenticated = cursor.getCount() > 0;
+        String[] projection = {
+                "id",
+                "username",
+                "password",
+        };
+
+        String selection = "username = ? AND password = ?";
+        String[] selectionArgs = { username, password };
+
+        Cursor cursor = db.query(
+                "users",   // La table à interroger
+                projection,             // Les colonnes à retourner
+                selection,              // Les colonnes pour la clause WHERE
+                selectionArgs,          // Les valeurs pour la clause WHERE
+                null,                   // Ne pas regrouper les lignes
+                null,                   // Ne pas filtrer par les groupes de lignes
+                null                    // L'ordre de tri
+        );
+
+        boolean authenticated = cursor.getCount() > 0;
         cursor.close();
         db.close();
+        return authenticated;
+    }
 
-        return isAuthenticated;
+    private String getEmailForUser(String username) {
+        DatabaseHelper dbHelper = new DatabaseHelper(this);
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+
+        String[] projection = { "email" };
+        String selection = "username = ?";
+        String[] selectionArgs = { username };
+
+        Cursor cursor = db.query("users", projection, selection, selectionArgs, null, null, null);
+        if (cursor != null && cursor.moveToFirst()) {
+            String email = cursor.getString(cursor.getColumnIndexOrThrow("email"));
+            cursor.close();
+            db.close();
+            return email;
+        }
+
+        if (cursor != null) {
+            cursor.close();
+        }
+        db.close();
+        return null;
     }
 }
