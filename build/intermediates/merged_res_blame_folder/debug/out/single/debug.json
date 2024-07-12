@@ -4,16 +4,16 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_map.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_checkbox.xml.flat",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\checkbox.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_osm_widget_answer.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\osm_widget_answer.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable-hdpi_notes.png.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable-hdpi\\notes.png"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_osm_widget_answer.xml.flat",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\osm_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_checkbox.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\checkbox.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_eye_off.png.flat",
@@ -28,24 +28,24 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\annotate_widget.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_start_new_from_button.xml.flat",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\start_new_from_button.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_select_image_map_widget_answer.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\select_image_map_widget_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_start_new_from_button.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\start_new_from_button.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_select_item_border.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\select_item_border.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\menu_changes_reason_dialog.xml.flat",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\menu\\changes_reason_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_baseline_notifications_24.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_baseline_notifications_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\menu_changes_reason_dialog.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\menu\\changes_reason_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_rating_widget_answer.xml.flat",
@@ -104,24 +104,24 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_eye.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_outline_warning_accent_24.xml.flat",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_outline_warning_accent_24.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_ex_string_question_type.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\ex_string_question_type.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable-xxhdpi_notes.png.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable-xxhdpi\\notes.png"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_ex_string_question_type.xml.flat",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\ex_string_question_type.xml"
-    },
-    {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_baseline_download_72.xml.flat",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_baseline_download_72.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_outline_warning_accent_24.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_outline_warning_accent_24.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_outline_info_small.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_outline_info_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_baseline_download_72.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_baseline_download_72.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_room_form_state_incomplete_24dp.xml.flat",
@@ -752,6 +752,10 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\main_menu_button_background.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_eye_off.xml.flat",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_eye_off.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\anim_push_right_out.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\anim\\push_right_out.xml"
     },
@@ -1060,6 +1064,10 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_logo.xml"
     },
     {
+        "merged": "org.odk.collect.android.collect_app-merged_res-101:/layout_activity_detail.xml.flat",
+        "source": "org.odk.collect.android.collect_app-main-103:/layout/activity_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_signature_widget.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\signature_widget.xml"
     },
@@ -1078,10 +1086,6 @@
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\drawable_ic_outline_forum_24.xml.flat",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\drawable\\ic_outline_forum_24.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-merged_res-101:/drawable_ic_eye_off.xml.flat",
-        "source": "org.odk.collect.android.collect_app-main-103:/drawable/ic_eye_off.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-merged_res-101:\\layout_form_chooser_list_item_multiple_choice.xml.flat",

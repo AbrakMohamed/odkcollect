@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\identify_user_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\activity_saved_projects.xml",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\activity_saved_projects.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\select_one_from_map_dialog_layout.xml",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\select_one_from_map_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\activity_saved_projects.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\activity_saved_projects.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\password_dialog_layout.xml",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\select_one_item.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\main_menu.xml",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\main_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\form_map_activity.xml",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\form_map_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\main_menu.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\main_menu.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\form_download_list.xml",
@@ -116,20 +116,20 @@
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\ranking_widget.xml",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\ranking_widget.xml"
-    },
-    {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\app_bar_with_progress_bar_layout.xml",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\app_bar_with_progress_bar_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\permissions_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\permissions_dialog_layout.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\ex_video_widget_answer.xml",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\ex_video_widget_answer.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\permissions_dialog_layout.xml",
-        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\permissions_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\app_bar_with_progress_bar_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\app_bar_with_progress_bar_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\ranking_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\ranking_widget.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\odk_view.xml",
@@ -158,6 +158,10 @@
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\activity_form.xml",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\activity_form.xml"
+    },
+    {
+        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-100:/layout/activity_detail.xml",
+        "source": "org.odk.collect.android.collect_app-main-103:/layout/activity_detail.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\select_list_widget_answer.xml",
@@ -406,10 +410,6 @@
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\osm_widget_answer.xml",
         "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-103:\\layout\\osm_widget_answer.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-100:/layout/login_activity.xml",
-        "source": "org.odk.collect.android.collect_app-main-103:/layout/login_activity.xml"
     },
     {
         "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-100:\\layout\\ready_to_send_banner.xml",
