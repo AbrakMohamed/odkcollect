@@ -5,9 +5,12 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +22,9 @@ public class LoginActivity extends AppCompatActivity {
     private EditText usernameEditText;
     private EditText passwordEditText;
     private Button loginButton;
+    private CheckBox rememberMeCheckBox;
+    private ImageView passwordToggle;
+    private boolean isPasswordVisible = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +34,33 @@ public class LoginActivity extends AppCompatActivity {
         usernameEditText = findViewById(R.id.username);
         passwordEditText = findViewById(R.id.password);
         loginButton = findViewById(R.id.login_button);
+        rememberMeCheckBox = findViewById(R.id.rememberMe);
+        passwordToggle = findViewById(R.id.password_toggle);
+
+        // Charger les informations de l'utilisateur si "Se souvenir de moi" est coché
+        SharedPreferences sharedPreferences = getSharedPreferences("user_prefs", MODE_PRIVATE);
+        if (sharedPreferences.getBoolean("remember_me", false)) {
+            usernameEditText.setText(sharedPreferences.getString("username", ""));
+            passwordEditText.setText(sharedPreferences.getString("password", ""));
+            rememberMeCheckBox.setChecked(true);
+        }
+
+        passwordToggle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (isPasswordVisible) {
+                    // Masquer le mot de passe
+                    passwordEditText.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                    passwordToggle.setImageResource(R.drawable.ic_eye); // Assurez-vous d'avoir cette icône
+                } else {
+                    // Afficher le mot de passe
+                    passwordEditText.setInputType(InputType.TYPE_CLASS_TEXT);
+                    passwordToggle.setImageResource(R.drawable.ic_eye_off); // Assurez-vous d'avoir cette icône
+                }
+                isPasswordVisible = !isPasswordVisible;
+                passwordEditText.setSelection(passwordEditText.getText().length());
+            }
+        });
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,10 +70,18 @@ public class LoginActivity extends AppCompatActivity {
                 if (authenticateUser(username, password)) {
                     // Connexion réussie
                     // Stocker les informations de l'utilisateur dans les préférences partagées
-                    SharedPreferences sharedPreferences = getSharedPreferences("user_prefs", MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString("username", username);
                     editor.putString("email", getEmailForUser(username)); // Récupérez l'email depuis la base de données
+
+                    if (rememberMeCheckBox.isChecked()) {
+                        editor.putBoolean("remember_me", true);
+                        editor.putString("password", password);
+                    } else {
+                        editor.putBoolean("remember_me", false);
+                        editor.remove("password");
+                    }
+
                     editor.apply();
 
                     Intent intent = new Intent(LoginActivity.this, HomeActivity.class);

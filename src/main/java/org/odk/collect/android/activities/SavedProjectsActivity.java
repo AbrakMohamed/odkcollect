@@ -1,3 +1,4 @@
+
 package org.odk.collect.android.activities;
 
 import android.content.Intent;

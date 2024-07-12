@@ -65,11 +65,15 @@ public class HomeActivity extends BaseActivity {
     private List<Project> getStaticProjects() {
         // Initialiser une liste de projets avec des données statiques
         List<Project> projects = new ArrayList<>();
-        projects.add(new Project("Nom projet 1", "Localisation 1", "06/05/2024 à 16:30"));
-        projects.add(new Project("Nom projet 2", "Localisation 2", "07/05/2024 à 17:00"));
-        projects.add(new Project("Nom projet 3", "Localisation 3", "08/05/2024 à 18:00"));
-        projects.add(new Project("Nom projet 4", "Localisation 4", "09/05/2024 à 19:00"));
-        projects.add(new Project("Nom projet 5", "Localisation 5", "10/05/2024 à 20:00"));
+        projects.add(new Project("projet 6", "Casablanca", "04/05/2024 à 20:00"));
+        projects.add(new Project("projet 7", "Rabat", "05/05/2024 à 16:00"));
+        projects.add(new Project("projet 8", "Sale", "05/05/2024 à 18:00"));
+        projects.add(new Project("projet 9", "Tanger", "06/05/2024 à 20:00"));
+        projects.add(new Project("projet 10", "Kenitra", "06/05/2024 à 20:00"));
+        projects.add(new Project("projet 11", "Ben Grire", "06/05/2024 à 20:00"));
+        projects.add(new Project("projet 12", "Stehat", "06/05/2024 à 20:00"));
+        projects.add(new Project("projet 13", "Porto", "06/05/2024 à 20:00"));
+        projects.add(new Project("projet 14", "Tanger", "06/05/2024 à 20:00"));
         // Ajouter autant de projets que nécessaire
         return projects;
     }

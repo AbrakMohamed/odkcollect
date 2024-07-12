@@ -239,7 +239,7 @@
     <string name="localisation">Localisation</string>
     <string name="localisation2">Localisation</string>
     <string name="localisationn">Localisation</string>
-    <string name="login" translatable="false">Login</string>
+    <string name="login" translatable="false">Authentification</string>
     <string name="login1">Login</string>
     <string name="login2">Login</string>
     <string name="logout" translatable="false">log out</string>
@@ -251,8 +251,8 @@
     <string name="nom_d_utilisateur">Nom d\'utilisateur</string>
     <string name="nom_d_utilisateur2">Nom d\'utilisateur</string>
     <string name="nom_d_utilisateur3">Nom d\'utilisateur</string>
-    <string name="nom_projet">Nom projet</string>
-    <string name="nom_projett">Nom projet</string>
+    <string name="nom_projet">Projet</string>
+    <string name="nom_projett">Projet</string>
     <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
     <string name="otp">OTP</string>
     <string name="password" translatable="false">Password</string>
@@ -265,11 +265,14 @@
     <string name="project_id" translatable="false">opendatakit-debug</string>
     <string name="project_name">Project Name</string>
     <string name="projet">projet</string>
+    <string name="projets">Projets</string>
     <string name="question_text_with_answer">%1$s: %2$s</string>
     <string name="rubric_title">Rubric Title</string>
     <string name="saved_projects">Projets Sauvegardés</string>
     <string name="se_connecter">Se connecter</string>
+    <string name="se_souvenir_de_moi">Se souvenir de moi</string>
     <string name="suivant">Suivant</string>
+    <string name="toggle_password_visibility">\n</string>
     <string name="user_example_com">user@example.com</string>
     <string name="user_name">User Name</string>
     <string name="userexample_com">user@example.com</string>

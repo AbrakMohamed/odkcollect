@@ -19,4 +19,15 @@ public class ProjectForm implements Serializable {
     public List<Rubric> getRubrics() {
         return rubrics;
     }
+
+    public boolean isCompleted() {
+        for (Rubric rubric : rubrics) {
+            for (Question question : rubric.getQuestions()) {
+                if (question.getSelectedAnswer() == null || question.getSelectedAnswer().isEmpty()) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 }

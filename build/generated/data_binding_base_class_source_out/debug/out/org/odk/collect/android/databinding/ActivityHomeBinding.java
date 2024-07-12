@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -31,15 +32,19 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final RecyclerView recyclerViewProjects;
 
   @NonNull
+  public final TextView textViewTitle;
+
+  @NonNull
   public final Toolbar toolbar;
 
   private ActivityHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView logo,
       @NonNull ImageView profileIcon, @NonNull RecyclerView recyclerViewProjects,
-      @NonNull Toolbar toolbar) {
+      @NonNull TextView textViewTitle, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.logo = logo;
     this.profileIcon = profileIcon;
     this.recyclerViewProjects = recyclerViewProjects;
+    this.textViewTitle = textViewTitle;
     this.toolbar = toolbar;
   }
 
@@ -88,6 +93,12 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textViewTitle;
+      TextView textViewTitle = ViewBindings.findChildViewById(rootView, id);
+      if (textViewTitle == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
       Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
@@ -95,7 +106,7 @@ public final class ActivityHomeBinding implements ViewBinding {
       }
 
       return new ActivityHomeBinding((ConstraintLayout) rootView, logo, profileIcon,
-          recyclerViewProjects, toolbar);
+          recyclerViewProjects, textViewTitle, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

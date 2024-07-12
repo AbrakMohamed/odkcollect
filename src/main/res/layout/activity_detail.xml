@@ -16,7 +16,8 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:elevation="4dp"
         app:title="Orange"
-        app:titleTextColor="@android:color/white">
+        app:titleTextColor="@android:color/white"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/logo"

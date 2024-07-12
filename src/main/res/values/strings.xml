@@ -3,7 +3,7 @@
     <string name="welcome_to_odk_collect" translatable="false">Welcome to ODK Collect</string>
     <string name="username" translatable="false">Username</string>
     <string name="password" translatable="false">Password</string>
-    <string name="login" translatable="false">Login</string>
+    <string name="login" translatable="false">Authentification</string>
     <string name="creating_user_message" translatable="false">Creating user...</string>
     <string name="entrez_le_code_de_v_rification_re_u_par_sms">Entrez le code de vérification reçu par SMS :</string>
     <string name="v_rifier">Vérifier</string>
@@ -27,10 +27,10 @@
     <string name="get_otp">Get OTP</string>
     <string name="enter_otp">Enter OTP</string>
     <string name="geeks_for_geeks_n_welcome_to_home_screen">Geeks for Geeks \n Welcome to Home Screen</string>
-    <string name="nom_projet">Nom projet</string>
+    <string name="nom_projet">Projet</string>
     <string name="localisation">Localisation</string>
     <string name="_06_05_2024_16_30">06/05/2024 à 16:30</string>
-    <string name="nom_projett">Nom projet</string>
+    <string name="nom_projett">Projet</string>
     <string name="localisationn">Localisation</string>
     <string name="_06_05_2024_16_31">06/05/2024 à 16:30</string>
     <string name="date">Date</string>
@@ -63,6 +63,9 @@
     <string name="project_details_title">Project Details: %1$s</string>
     <string name="question_text_with_answer">%1$s: %2$s</string>
     <string name="demarrer">demarrer</string>
+    <string name="projets">Projets</string>
+    <string name="se_souvenir_de_moi">Se souvenir de moi</string>
+    <string name="toggle_password_visibility">\n</string>
 
 
 </resources>

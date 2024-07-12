@@ -3426,6 +3426,8 @@ drawable ic_distance
 drawable ic_download_24
 drawable ic_edit
 drawable ic_edit_24
+drawable ic_eye
+drawable ic_eye_off
 drawable ic_folder_open
 drawable ic_form_state_blank
 drawable ic_form_state_finalized
@@ -3435,6 +3437,7 @@ drawable ic_form_state_submitted
 drawable ic_information_outline
 drawable ic_keyboard_black_24dp
 drawable ic_layers
+drawable ic_lock
 drawable ic_logo
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -3538,6 +3541,7 @@ drawable leak_canary_tab_selector_ripple
 drawable leak_canary_toast_background
 drawable leak_canary_tv_icon
 drawable list_item_divider
+drawable login
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3626,6 +3630,7 @@ drawable osm_ic_center_map
 drawable osm_ic_follow_me
 drawable osm_ic_follow_me_on
 drawable osm_ic_ic_map_ortho
+drawable outline_remove_red_eye_24
 drawable person
 drawable pill_filled
 drawable pill_unfilled
@@ -3752,6 +3757,7 @@ id audio_controller
 id audio_player
 id audio_recording_controller
 id audio_video_image_text_label_container
+id authenticationLayout
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -4041,6 +4047,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageViewLogo
 id image_map
 id image_text_label_container
 id image_view
@@ -4359,6 +4366,7 @@ id recyclerViewProjects
 id recyclerViewSavedProjects
 id recycler_view
 id refresh_button
+id rememberMe
 id remove
 id report_drawn
 id required_error_image
@@ -4502,6 +4510,7 @@ id textViewProjectDate
 id textViewProjectLocation
 id textViewProjectName
 id textViewProjectStatus
+id textViewTitle
 id text_container
 id text_input_end_icon
 id text_input_error_icon
@@ -6465,6 +6474,7 @@ string project_name
 string project_settings
 string projects
 string projet
+string projets
 string protected_settings
 string provider_disabled_error
 string public_transport
@@ -6553,6 +6563,7 @@ string saving_form
 string scan_configuration_qr_code
 string scan_qr_code_fragment_title
 string se_connecter
+string se_souvenir_de_moi
 string search
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -6657,6 +6668,7 @@ string theme_dark
 string theme_light
 string theme_system
 string time_elapsed
+string toggle_password_visibility
 string too_complex_form
 string topo
 string topographic

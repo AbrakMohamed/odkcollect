@@ -98,6 +98,8 @@ drawable ic_delete_24
 drawable ic_download_24
 drawable ic_edit
 drawable ic_edit_24
+drawable ic_eye
+drawable ic_eye_off
 drawable ic_folder_open
 drawable ic_form_state_blank
 drawable ic_form_state_finalized
@@ -105,6 +107,7 @@ drawable ic_form_state_saved
 drawable ic_form_state_submission_failed
 drawable ic_form_state_submitted
 drawable ic_information_outline
+drawable ic_lock
 drawable ic_logo
 drawable ic_map
 drawable ic_menu_goto_24
@@ -162,12 +165,14 @@ drawable ic_user
 drawable ic_visibility
 drawable ic_volume_up_black_24dp
 drawable inset_divider_64dp
+drawable login
 drawable main_menu_button_background
 drawable margin_standard_list_divider
 drawable nav_header_background
 drawable notes
 drawable odk_logo
 drawable orange_logo
+drawable outline_remove_red_eye_24
 drawable pill_filled
 drawable pill_unfilled
 drawable project_icon_background
@@ -192,6 +197,7 @@ id audio_controller
 id audio_player
 id audio_recording_controller
 id audio_video_image_text_label_container
+id authenticationLayout
 id backButton
 id banner
 id barcode_answer_text
@@ -301,6 +307,7 @@ id idEdtPhoneNumber
 id identity
 id image
 id imageView
+id imageViewLogo
 id image_map
 id image_text_label_container
 id image_view
@@ -368,6 +375,7 @@ id osm_file_text
 id password
 id password_edit
 id password_input_text
+id password_toggle
 id pathtext
 id pause_recording
 id permission_text
@@ -410,6 +418,7 @@ id recyclerView
 id recyclerViewProjects
 id recyclerViewSavedProjects
 id refresh_button
+id rememberMe
 id remove
 id required_error_image
 id review_data
@@ -444,6 +453,7 @@ id textViewProjectDate
 id textViewProjectLocation
 id textViewProjectName
 id textViewProjectStatus
+id textViewTitle
 id text_container
 id text_input_layout
 id text_label
@@ -686,11 +696,14 @@ string project_details_title
 string project_id
 string project_name
 string projet
+string projets
 string question_text_with_answer
 string rubric_title
 string saved_projects
 string se_connecter
+string se_souvenir_de_moi
 string suivant
+string toggle_password_visibility
 string user_example_com
 string user_name
 string userexample_com

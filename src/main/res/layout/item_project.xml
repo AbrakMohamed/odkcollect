@@ -3,43 +3,45 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    android:background="@color/colorPrimary"
-    app:cardCornerRadius="8dp"
-    app:cardElevation="4dp">
+    android:layout_margin="1dp"
+
+    app:cardElevation="4dp"
+    android:backgroundTint="@android:color/white"
+    app:cardUseCompatPadding="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/colorSurfaceVariant"
-        android:padding="16dp">
-
-
+        android:padding="16dp"
+        android:layout_marginBottom="2dp">
 
         <TextView
             android:id="@+id/textViewName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/projet"
             android:textStyle="bold"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="@string/nom_projet" />
 
         <TextView
             android:id="@+id/textViewLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/localisation2"
-            android:layout_marginTop="4dp"
-            android:textColor="@android:color/darker_gray" />
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="4dp"
+            android:text="@string/localisation" />
 
         <TextView
             android:id="@+id/textViewDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_06_05_2024_17_30"
-            android:layout_marginTop="4dp"
-            android:textColor="@android:color/darker_gray" />
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="4dp"
+            android:text="@string/_06_05_2024_16_30" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

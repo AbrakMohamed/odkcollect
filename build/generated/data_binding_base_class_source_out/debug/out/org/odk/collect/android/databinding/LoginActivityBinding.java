@@ -5,7 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,19 +24,37 @@ public final class LoginActivityBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final LinearLayout authenticationLayout;
+
+  @NonNull
+  public final ImageView imageViewLogo;
+
+  @NonNull
   public final Button loginButton;
 
   @NonNull
   public final EditText password;
 
   @NonNull
+  public final ImageView passwordToggle;
+
+  @NonNull
+  public final CheckBox rememberMe;
+
+  @NonNull
   public final EditText username;
 
-  private LoginActivityBinding(@NonNull RelativeLayout rootView, @NonNull Button loginButton,
-      @NonNull EditText password, @NonNull EditText username) {
+  private LoginActivityBinding(@NonNull RelativeLayout rootView,
+      @NonNull LinearLayout authenticationLayout, @NonNull ImageView imageViewLogo,
+      @NonNull Button loginButton, @NonNull EditText password, @NonNull ImageView passwordToggle,
+      @NonNull CheckBox rememberMe, @NonNull EditText username) {
     this.rootView = rootView;
+    this.authenticationLayout = authenticationLayout;
+    this.imageViewLogo = imageViewLogo;
     this.loginButton = loginButton;
     this.password = password;
+    this.passwordToggle = passwordToggle;
+    this.rememberMe = rememberMe;
     this.username = username;
   }
 
@@ -64,6 +85,18 @@ public final class LoginActivityBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.authenticationLayout;
+      LinearLayout authenticationLayout = ViewBindings.findChildViewById(rootView, id);
+      if (authenticationLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.imageViewLogo;
+      ImageView imageViewLogo = ViewBindings.findChildViewById(rootView, id);
+      if (imageViewLogo == null) {
+        break missingId;
+      }
+
       id = R.id.login_button;
       Button loginButton = ViewBindings.findChildViewById(rootView, id);
       if (loginButton == null) {
@@ -76,13 +109,26 @@ public final class LoginActivityBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.password_toggle;
+      ImageView passwordToggle = ViewBindings.findChildViewById(rootView, id);
+      if (passwordToggle == null) {
+        break missingId;
+      }
+
+      id = R.id.rememberMe;
+      CheckBox rememberMe = ViewBindings.findChildViewById(rootView, id);
+      if (rememberMe == null) {
+        break missingId;
+      }
+
       id = R.id.username;
       EditText username = ViewBindings.findChildViewById(rootView, id);
       if (username == null) {
         break missingId;
       }
 
-      return new LoginActivityBinding((RelativeLayout) rootView, loginButton, password, username);
+      return new LoginActivityBinding((RelativeLayout) rootView, authenticationLayout,
+          imageViewLogo, loginButton, password, passwordToggle, rememberMe, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

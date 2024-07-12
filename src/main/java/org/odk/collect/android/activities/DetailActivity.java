@@ -52,7 +52,7 @@ public class DetailActivity extends BaseActivity {
         List<Rubric> rubrics = new ArrayList<>();
 
         switch (projectName) {
-            case "Nom projet 1":
+            case "Nom projet 6":
                 rubrics.add(createRubric("Rubric 1",
                         new Question("Question 1", "radio", Arrays.asList("Rep A", "Rep B", "Rep C")),
                         new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C"))
@@ -63,7 +63,7 @@ public class DetailActivity extends BaseActivity {
                 ));
                 break;
 
-            case "Nom projet 2":
+            case "Nom projet 7":
                 rubrics.add(createRubric("Rubric 1",
                         new Question("Question 1", "radio", Arrays.asList("Rep A", "Rep B")),
                         new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C", "Rep D"))
@@ -74,7 +74,7 @@ public class DetailActivity extends BaseActivity {
                 ));
                 break;
 
-            case "Nom projet 3":
+            case "Nom projet 8":
                 rubrics.add(createRubric("Rubric 1",
                         new Question("Question 1", "radio", Arrays.asList("Rep A", "Rep B", "Rep C"))
                 ));
@@ -83,24 +83,13 @@ public class DetailActivity extends BaseActivity {
                 ));
                 break;
 
-            case "Nom projet 4":
+            case "Nom projet 9":
                 rubrics.add(createRubric("Rubric 1",
                         new Question("Question 1", "checkbox", Arrays.asList("Rep A","Rep B","Rep C","Rep D")),
                         new Question("Question 2", "radio", Arrays.asList("Rep A", "Rep B", "Rep C"))
                 ));
                 rubrics.add(createRubric("Rubric 2",
                         new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C"))
-                ));
-                break;
-
-            case "Nom projet 5":
-                rubrics.add(createRubric("Rubric 1",
-                        new Question("Question 1", "checkbox", Arrays.asList("Rep A","Rep B","Rep C","Rep D")),
-                        new Question("Question 2", "radio", Arrays.asList("Rep A", "Rep B", "Rep C"))
-                ));
-                rubrics.add(createRubric("Rubric 2",
-                        new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C")),
-                        new Question("Question 3", "radio", Arrays.asList("Rep A", "Rep B"))
                 ));
                 break;
 
