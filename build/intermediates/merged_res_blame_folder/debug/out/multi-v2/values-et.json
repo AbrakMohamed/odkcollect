@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-99:/values-et/values-et.xml",
+            "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-100:/values-et/values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Test\\Desktop\\collect-master\\strings\\build\\intermediates\\packaged_res\\debug\\values-et\\values-et.xml",

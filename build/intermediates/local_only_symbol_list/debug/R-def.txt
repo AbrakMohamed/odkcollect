@@ -179,6 +179,7 @@ drawable project_icon_background
 drawable question_with_error_border
 drawable select_item_border
 drawable start_new_form_button_background
+drawable table_background
 id about_button
 id add_button
 id add_new_project_appbar
@@ -445,14 +446,17 @@ id subtext
 id summary
 id switch_flashlight
 id tabLayout
+id tableLayout
 id tagline
 id textViewDate
 id textViewLocation
 id textViewName
-id textViewProjectDate
-id textViewProjectLocation
+id textViewProjectDateValue
+id textViewProjectLocationValue
 id textViewProjectName
 id textViewProjectStatus
+id textViewProjectTimeValue
+id textViewProjectTypologyValue
 id textViewTitle
 id text_container
 id text_input_layout
@@ -650,6 +654,7 @@ string confirmer_le_nouveau_mot_de_passe
 string connect
 string creating_user_message
 string date
+string date2
 string default_web_client_id
 string demarrer
 string email
@@ -665,6 +670,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string heure
 string leak_canary_test_class_name
 string localisatio
 string localisation
@@ -704,6 +710,8 @@ string se_connecter
 string se_souvenir_de_moi
 string suivant
 string toggle_password_visibility
+string typologie
+string typologie2
 string user_example_com
 string user_name
 string userexample_com
@@ -715,6 +723,7 @@ string v_rifier
 string validate
 string verifier
 string verify_otp
+string ville
 string welcome_to_odk_collect
 style NegativeButtonStyle
 style PositiveButtonStyle

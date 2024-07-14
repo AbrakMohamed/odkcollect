@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TableLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,28 +33,42 @@ public final class ActivityDetailBinding implements ViewBinding {
   public final Button startFormButton;
 
   @NonNull
-  public final TextView textViewProjectDate;
+  public final TableLayout tableLayout;
 
   @NonNull
-  public final TextView textViewProjectLocation;
+  public final TextView textViewProjectDateValue;
+
+  @NonNull
+  public final TextView textViewProjectLocationValue;
 
   @NonNull
   public final TextView textViewProjectName;
+
+  @NonNull
+  public final TextView textViewProjectTimeValue;
+
+  @NonNull
+  public final TextView textViewProjectTypologyValue;
 
   @NonNull
   public final Toolbar toolbar;
 
   private ActivityDetailBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView logo,
       @NonNull ImageView profileIcon, @NonNull Button startFormButton,
-      @NonNull TextView textViewProjectDate, @NonNull TextView textViewProjectLocation,
-      @NonNull TextView textViewProjectName, @NonNull Toolbar toolbar) {
+      @NonNull TableLayout tableLayout, @NonNull TextView textViewProjectDateValue,
+      @NonNull TextView textViewProjectLocationValue, @NonNull TextView textViewProjectName,
+      @NonNull TextView textViewProjectTimeValue, @NonNull TextView textViewProjectTypologyValue,
+      @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.logo = logo;
     this.profileIcon = profileIcon;
     this.startFormButton = startFormButton;
-    this.textViewProjectDate = textViewProjectDate;
-    this.textViewProjectLocation = textViewProjectLocation;
+    this.tableLayout = tableLayout;
+    this.textViewProjectDateValue = textViewProjectDateValue;
+    this.textViewProjectLocationValue = textViewProjectLocationValue;
     this.textViewProjectName = textViewProjectName;
+    this.textViewProjectTimeValue = textViewProjectTimeValue;
+    this.textViewProjectTypologyValue = textViewProjectTypologyValue;
     this.toolbar = toolbar;
   }
 
@@ -102,21 +117,39 @@ public final class ActivityDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textViewProjectDate;
-      TextView textViewProjectDate = ViewBindings.findChildViewById(rootView, id);
-      if (textViewProjectDate == null) {
+      id = R.id.tableLayout;
+      TableLayout tableLayout = ViewBindings.findChildViewById(rootView, id);
+      if (tableLayout == null) {
         break missingId;
       }
 
-      id = R.id.textViewProjectLocation;
-      TextView textViewProjectLocation = ViewBindings.findChildViewById(rootView, id);
-      if (textViewProjectLocation == null) {
+      id = R.id.textViewProjectDateValue;
+      TextView textViewProjectDateValue = ViewBindings.findChildViewById(rootView, id);
+      if (textViewProjectDateValue == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewProjectLocationValue;
+      TextView textViewProjectLocationValue = ViewBindings.findChildViewById(rootView, id);
+      if (textViewProjectLocationValue == null) {
         break missingId;
       }
 
       id = R.id.textViewProjectName;
       TextView textViewProjectName = ViewBindings.findChildViewById(rootView, id);
       if (textViewProjectName == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewProjectTimeValue;
+      TextView textViewProjectTimeValue = ViewBindings.findChildViewById(rootView, id);
+      if (textViewProjectTimeValue == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewProjectTypologyValue;
+      TextView textViewProjectTypologyValue = ViewBindings.findChildViewById(rootView, id);
+      if (textViewProjectTypologyValue == null) {
         break missingId;
       }
 
@@ -127,8 +160,8 @@ public final class ActivityDetailBinding implements ViewBinding {
       }
 
       return new ActivityDetailBinding((ConstraintLayout) rootView, logo, profileIcon,
-          startFormButton, textViewProjectDate, textViewProjectLocation, textViewProjectName,
-          toolbar);
+          startFormButton, tableLayout, textViewProjectDateValue, textViewProjectLocationValue,
+          textViewProjectName, textViewProjectTimeValue, textViewProjectTypologyValue, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

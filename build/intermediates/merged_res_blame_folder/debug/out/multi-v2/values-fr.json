@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-99:/values-fr/values-fr.xml",
+            "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-100:/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\eae898eb2c0642c847b261d63fc5a241\\transformed\\material-1.11.0\\res\\values-fr\\values-fr.xml",

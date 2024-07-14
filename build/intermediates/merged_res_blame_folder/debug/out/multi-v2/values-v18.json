@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-99:/values-v18/values-v18.xml",
+            "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-100:/values-v18/values-v18.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\fd11819445bb1779a30da2b3f51b7fcd\\transformed\\jetified-core-1.5.0\\res\\values-v18\\values.xml",

@@ -219,6 +219,7 @@
     <string name="connect">Se connecter</string>
     <string name="creating_user_message" translatable="false">Creating user...</string>
     <string name="date">Date</string>
+    <string name="date2">Date :</string>
     <string name="default_web_client_id" translatable="false">462257085307-o9ll0ogq8jm4ta3q9av2mf2rh4ume9vj.apps.googleusercontent.com</string>
     <string name="demarrer">demarrer</string>
     <string name="email">email</string>
@@ -234,12 +235,13 @@
     <string name="google_app_id" translatable="false">1:462257085307:android:64acb5e3c9e68ab5173bde</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAClt29XaVTTO1m2R9u3WW-RimapSqjALg</string>
     <string name="google_storage_bucket" translatable="false">opendatakit-debug.appspot.com</string>
+    <string name="heure">Heure :</string>
     <string name="leak_canary_test_class_name" translatable="false">androidx.test.ext.junit.runners.AndroidJUnit4</string>
     <string name="localisatio">Localisation</string>
     <string name="localisation">Localisation</string>
     <string name="localisation2">Localisation</string>
     <string name="localisationn">Localisation</string>
-    <string name="login" translatable="false">Authentification</string>
+    <string name="login" translatable="false">Authentification  </string>
     <string name="login1">Login</string>
     <string name="login2">Login</string>
     <string name="logout" translatable="false">log out</string>
@@ -273,6 +275,8 @@
     <string name="se_souvenir_de_moi">Se souvenir de moi</string>
     <string name="suivant">Suivant</string>
     <string name="toggle_password_visibility">\n</string>
+    <string name="typologie">Typologie</string>
+    <string name="typologie2">Typologie :</string>
     <string name="user_example_com">user@example.com</string>
     <string name="user_name">User Name</string>
     <string name="userexample_com">user@example.com</string>
@@ -284,6 +288,7 @@
     <string name="validate">Valider</string>
     <string name="verifier"/>
     <string name="verify_otp">Verify OTP</string>
+    <string name="ville">Ville :</string>
     <string name="welcome_to_odk_collect" translatable="false">Welcome to ODK Collect</string>
     <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
         <item name="android:textColor">?attr/colorSecondary</item>

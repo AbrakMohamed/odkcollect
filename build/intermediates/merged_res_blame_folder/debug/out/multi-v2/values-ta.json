@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-99:/values-ta/values-ta.xml",
+            "outputFile": "org.odk.collect.android.collect_app-mergeDebugResources-100:/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\ab68602428a5a3a17438801ab80bc2dd\\transformed\\jetified-play-services-basement-18.3.0\\res\\values-ta\\values.xml",

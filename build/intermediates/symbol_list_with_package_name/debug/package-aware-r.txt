@@ -3645,6 +3645,7 @@ drawable shadow_up
 drawable sharp_add_black_36
 drawable sharp_remove_black_36
 drawable start_new_form_button_background
+drawable table_background
 drawable test_level_drawable
 drawable thumbnail_border
 drawable tooltip_frame_dark
@@ -4481,6 +4482,7 @@ id switchWidget
 id switch_flashlight
 id tabLayout
 id tabMode
+id tableLayout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -4506,10 +4508,12 @@ id textTop
 id textViewDate
 id textViewLocation
 id textViewName
-id textViewProjectDate
-id textViewProjectLocation
+id textViewProjectDateValue
+id textViewProjectLocationValue
 id textViewProjectName
 id textViewProjectStatus
+id textViewProjectTimeValue
+id textViewProjectTypologyValue
 id textViewTitle
 id text_container
 id text_input_end_icon
@@ -5805,6 +5809,7 @@ string data
 string data_saved_error
 string data_saved_ok
 string date
+string date2
 string default_web_client_id
 string define_zxingandroidembedded
 string delete_after_send
@@ -6057,6 +6062,7 @@ string guidance_no
 string guidance_yes
 string guidance_yes_collapsed
 string hash
+string heure
 string hex
 string hex_color
 string hide_bottom_view_on_scroll_behavior
@@ -6195,6 +6201,7 @@ string leak_canary_tv_toast_retained_objects
 string learn_more_button_text
 string leave_a_review
 string leave_a_review_msg
+string lib_name
 string library_zxingandroidembedded_author
 string library_zxingandroidembedded_authorWebsite
 string library_zxingandroidembedded_isOpenSource
@@ -6678,6 +6685,8 @@ string trigger
 string try_demo
 string turn_off_flashlight
 string turn_on_flashlight
+string typologie
+string typologie2
 string unacceptable_accuracy
 string uncheck_to_hide_from_drafts
 string unknown
@@ -6726,6 +6735,7 @@ string view_point
 string view_polygon
 string view_qr_code_fragment_title
 string view_sent_forms
+string ville
 string waiting_for_location
 string welcome_to_odk_collect
 string west

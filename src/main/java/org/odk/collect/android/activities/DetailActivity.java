@@ -26,20 +26,25 @@ public class DetailActivity extends BaseActivity {
         setupToolbar();
 
         TextView textViewProjectName = findViewById(R.id.textViewProjectName);
-        TextView textViewProjectLocation = findViewById(R.id.textViewProjectLocation);
-        TextView textViewProjectDate = findViewById(R.id.textViewProjectDate);
+        TextView textViewProjectLocationValue = findViewById(R.id.textViewProjectLocationValue);
+        TextView textViewProjectDateValue = findViewById(R.id.textViewProjectDateValue);
+        TextView textViewProjectTimeValue = findViewById(R.id.textViewProjectTimeValue);
+        TextView textViewProjectTypologyValue = findViewById(R.id.textViewProjectTypologyValue);
         Button startFormButton = findViewById(R.id.start_form_button);
 
         String projectName = getIntent().getStringExtra("projectName");
         String projectLocation = getIntent().getStringExtra("projectLocation");
         String projectDate = getIntent().getStringExtra("projectDate");
+        String projectTypology = getIntent().getStringExtra("projectTypology");
 
         textViewProjectName.setText(projectName);
-        textViewProjectLocation.setText(projectLocation);
-        textViewProjectDate.setText(projectDate);
+        textViewProjectLocationValue.setText(projectLocation);
+        textViewProjectDateValue.setText(getFormattedDate(projectDate));
+        textViewProjectTimeValue.setText(getFormattedTime(projectDate));
+        textViewProjectTypologyValue.setText(projectTypology);
 
-        // Simuler la récupération du formulaire du projet pour l'exemple
-        projectForm = getProjectForm(projectName);
+        // Charger le formulaire du projet en fonction de la typologie
+        projectForm = getProjectForm(projectName, projectTypology);
 
         startFormButton.setOnClickListener(v -> {
             Intent intent = new Intent(DetailActivity.this, FormActivity.class);
@@ -48,48 +53,39 @@ public class DetailActivity extends BaseActivity {
         });
     }
 
-    private ProjectForm getProjectForm(String projectName) {
+    private String getFormattedDate(String datetime) {
+        // Assurez-vous que datetime est au format "dd/MM/yyyy à HH:mm"
+        return datetime.split(" à ")[0];
+    }
+
+    private String getFormattedTime(String datetime) {
+        // Assurez-vous que datetime est au format "dd/MM/yyyy à HH:mm"
+        return datetime.split(" à ")[1];
+    }
+
+    private ProjectForm getProjectForm(String projectName, String typology) {
         List<Rubric> rubrics = new ArrayList<>();
 
-        switch (projectName) {
-            case "Nom projet 6":
-                rubrics.add(createRubric("Rubric 1",
+        switch (typology) {
+            case "normal":
+                rubrics.add(createRubric("Rubric Normal 1",
                         new Question("Question 1", "radio", Arrays.asList("Rep A", "Rep B", "Rep C")),
                         new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C"))
                 ));
-                rubrics.add(createRubric("Rubric 2",
+                rubrics.add(createRubric("Rubric Normal 2",
                         new Question("Question 3", "radio", Arrays.asList("Rep A", "Rep B")),
                         new Question("Question 4", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C"))
                 ));
                 break;
 
-            case "Nom projet 7":
-                rubrics.add(createRubric("Rubric 1",
+            case "special":
+                rubrics.add(createRubric("Rubric Special 1",
                         new Question("Question 1", "radio", Arrays.asList("Rep A", "Rep B")),
                         new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C", "Rep D"))
                 ));
-                rubrics.add(createRubric("Rubric 2",
+                rubrics.add(createRubric("Rubric Special 2",
                         new Question("Question 3", "radio", Arrays.asList("Rep A", "Rep B")),
                         new Question("Question 4", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C", "Rep D"))
-                ));
-                break;
-
-            case "Nom projet 8":
-                rubrics.add(createRubric("Rubric 1",
-                        new Question("Question 1", "radio", Arrays.asList("Rep A", "Rep B", "Rep C"))
-                ));
-                rubrics.add(createRubric("Rubric 2",
-                        new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C"))
-                ));
-                break;
-
-            case "Nom projet 9":
-                rubrics.add(createRubric("Rubric 1",
-                        new Question("Question 1", "checkbox", Arrays.asList("Rep A","Rep B","Rep C","Rep D")),
-                        new Question("Question 2", "radio", Arrays.asList("Rep A", "Rep B", "Rep C"))
-                ));
-                rubrics.add(createRubric("Rubric 2",
-                        new Question("Question 2", "checkbox", Arrays.asList("Rep A", "Rep B", "Rep C"))
                 ));
                 break;
 

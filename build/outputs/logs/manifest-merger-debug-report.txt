@@ -189,6 +189,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Test\.gradle\cac
 MERGED from [androidx.print:print:1.0.0] C:\Users\Test\.gradle\caches\transforms-3\2746e15c0c244f248766133e8fc13696\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.13] C:\Users\Test\.gradle\caches\transforms-3\35b6de84fd83d156033fa90f63378318\transformed\jetified-leakcanary-android-utils-2.13\AndroidManifest.xml:2:1-7:12
 MERGED from [com.squareup.curtains:curtains:1.2.4] C:\Users\Test\.gradle\caches\transforms-3\f5e4a62f064c8cdfa60c4b38d6e86490\transformed\jetified-curtains-1.2.4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\Test\.gradle\caches\transforms-3\7ab258edb164af7eac8a802f5ad92a7d\transformed\jetified-filament-android-1.17.1\AndroidManifest.xml:2:1-11:12
 MERGED from [:nbistubs] C:\Users\Test\Desktop\collect-master\nbistubs\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Test\.gradle\caches\transforms-3\b344d74e5d8cf10c9533534c325b4d31\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.arcao:slf4j-timber:3.1] C:\Users\Test\.gradle\caches\transforms-3\127e149eeadcf603979a102dba07d867\transformed\jetified-slf4j-timber-3.1\AndroidManifest.xml:2:1-9:12
@@ -1380,6 +1381,8 @@ MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.13] C:\Users\Tes
 MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.13] C:\Users\Test\.gradle\caches\transforms-3\35b6de84fd83d156033fa90f63378318\transformed\jetified-leakcanary-android-utils-2.13\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.curtains:curtains:1.2.4] C:\Users\Test\.gradle\caches\transforms-3\f5e4a62f064c8cdfa60c4b38d6e86490\transformed\jetified-curtains-1.2.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.squareup.curtains:curtains:1.2.4] C:\Users\Test\.gradle\caches\transforms-3\f5e4a62f064c8cdfa60c4b38d6e86490\transformed\jetified-curtains-1.2.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\Test\.gradle\caches\transforms-3\7ab258edb164af7eac8a802f5ad92a7d\transformed\jetified-filament-android-1.17.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\Test\.gradle\caches\transforms-3\7ab258edb164af7eac8a802f5ad92a7d\transformed\jetified-filament-android-1.17.1\AndroidManifest.xml:7:5-9:41
 MERGED from [:nbistubs] C:\Users\Test\Desktop\collect-master\nbistubs\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:nbistubs] C:\Users\Test\Desktop\collect-master\nbistubs\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Test\.gradle\caches\transforms-3\b344d74e5d8cf10c9533534c325b4d31\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43

@@ -47,6 +47,7 @@ public class HomeActivity extends BaseActivity {
                 intent.putExtra("projectName", clickedProject.getName());
                 intent.putExtra("projectLocation", clickedProject.getLocation());
                 intent.putExtra("projectDate", clickedProject.getDate());
+                intent.putExtra("projectTypology", clickedProject.getTypology()); // Passer la typologie
                 startActivity(intent);
             }
         });
@@ -63,18 +64,12 @@ public class HomeActivity extends BaseActivity {
     }
 
     private List<Project> getStaticProjects() {
-        // Initialiser une liste de projets avec des données statiques
         List<Project> projects = new ArrayList<>();
-        projects.add(new Project("projet 6", "Casablanca", "04/05/2024 à 20:00"));
-        projects.add(new Project("projet 7", "Rabat", "05/05/2024 à 16:00"));
-        projects.add(new Project("projet 8", "Sale", "05/05/2024 à 18:00"));
-        projects.add(new Project("projet 9", "Tanger", "06/05/2024 à 20:00"));
-        projects.add(new Project("projet 10", "Kenitra", "06/05/2024 à 20:00"));
-        projects.add(new Project("projet 11", "Ben Grire", "06/05/2024 à 20:00"));
-        projects.add(new Project("projet 12", "Stehat", "06/05/2024 à 20:00"));
-        projects.add(new Project("projet 13", "Porto", "06/05/2024 à 20:00"));
-        projects.add(new Project("projet 14", "Tanger", "06/05/2024 à 20:00"));
-        // Ajouter autant de projets que nécessaire
-        return projects;
-    }
+            projects.add(new Project("Nom projet 6", "Casablanca", "04/05/2024 à 20:00", "normal"));
+            projects.add(new Project("Nom projet 7", "Rabat", "05/05/2024 à 16:00", "special"));
+            projects.add(new Project("Nom projet 8", "Sale", "05/05/2024 à 18:00", "normal"));
+            projects.add(new Project("Nom projet 9", "Tanger", "06/05/2024 à 20:00", "special"));
+            return projects;
+        }
+
 }

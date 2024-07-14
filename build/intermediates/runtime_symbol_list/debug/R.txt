@@ -3644,6 +3644,7 @@ int drawable shadow_up 0x7f0801cf
 int drawable sharp_add_black_36 0x7f0801d0
 int drawable sharp_remove_black_36 0x7f0801d1
 int drawable start_new_form_button_background 0x7f0801d2
+int drawable table_background 0x7f0801da
 int drawable test_level_drawable 0x7f0801d3
 int drawable thumbnail_border 0x7f0801d4
 int drawable tooltip_frame_dark 0x7f0801d5
@@ -4480,6 +4481,7 @@ int id switchWidget 0x7f090339
 int id switch_flashlight 0x7f09033a
 int id tabLayout 0x7f09033b
 int id tabMode 0x7f09033c
+int id tableLayout 0x7f0903c8
 int id tag_accessibility_actions 0x7f09033d
 int id tag_accessibility_clickable_spans 0x7f09033e
 int id tag_accessibility_heading 0x7f09033f
@@ -4505,10 +4507,12 @@ int id textTop 0x7f090352
 int id textViewDate 0x7f090353
 int id textViewLocation 0x7f090354
 int id textViewName 0x7f090355
-int id textViewProjectDate 0x7f090356
-int id textViewProjectLocation 0x7f090357
+int id textViewProjectDateValue 0x7f0903c3
+int id textViewProjectLocationValue 0x7f0903c4
 int id textViewProjectName 0x7f090358
 int id textViewProjectStatus 0x7f090359
+int id textViewProjectTimeValue 0x7f0903c6
+int id textViewProjectTypologyValue 0x7f0903c7
 int id textViewTitle 0x7f09035a
 int id text_container 0x7f09035b
 int id text_input_end_icon 0x7f09035c
@@ -5804,6 +5808,7 @@ int string data 0x7f1300f4
 int string data_saved_error 0x7f1300f5
 int string data_saved_ok 0x7f1300f6
 int string date 0x7f1300f7
+int string date2 0x7f13049f
 int string default_web_client_id 0x7f1300f8
 int string define_zxingandroidembedded 0x7f1300f9
 int string delete_after_send 0x7f1300fa
@@ -6056,6 +6061,7 @@ int string guidance_no 0x7f1301f0
 int string guidance_yes 0x7f1301f1
 int string guidance_yes_collapsed 0x7f1301f2
 int string hash 0x7f1301f3
+int string heure 0x7f1304a0
 int string hex 0x7f1301f4
 int string hex_color 0x7f1301f5
 int string hide_bottom_view_on_scroll_behavior 0x7f1301f6
@@ -6194,6 +6200,7 @@ int string leak_canary_tv_toast_retained_objects 0x7f13027a
 int string learn_more_button_text 0x7f13027b
 int string leave_a_review 0x7f13027c
 int string leave_a_review_msg 0x7f13027d
+int string lib_name 0x7f1304a3
 int string library_zxingandroidembedded_author 0x7f13027e
 int string library_zxingandroidembedded_authorWebsite 0x7f13027f
 int string library_zxingandroidembedded_isOpenSource 0x7f130280
@@ -6677,6 +6684,8 @@ int string trigger 0x7f13045d
 int string try_demo 0x7f13045e
 int string turn_off_flashlight 0x7f13045f
 int string turn_on_flashlight 0x7f130460
+int string typologie 0x7f13049e
+int string typologie2 0x7f1304a1
 int string unacceptable_accuracy 0x7f130461
 int string uncheck_to_hide_from_drafts 0x7f130462
 int string unknown 0x7f130463
@@ -6725,6 +6734,7 @@ int string view_point 0x7f13048d
 int string view_polygon 0x7f13048e
 int string view_qr_code_fragment_title 0x7f13048f
 int string view_sent_forms 0x7f130490
+int string ville 0x7f1304a2
 int string waiting_for_location 0x7f130491
 int string welcome_to_odk_collect 0x7f130492
 int string west 0x7f130493
