@@ -1,5 +1,6 @@
 package org.odk.collect.android.fragments;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -79,6 +80,10 @@ public class RubricFragment extends Fragment {
 
         TextView questionTextView = new TextView(getContext());
         questionTextView.setText(question.getQuestionText());
+        questionTextView.setTextSize(18);  // Taille de la question
+        questionTextView.setTextColor(getResources().getColor(R.color.colorAccent));
+        questionTextView.setTypeface(null, Typeface.BOLD);// Couleur de la question
+        questionTextView.setPadding(0, 8, 0, 8);  // Marges de la question
         questionLayout.addView(questionTextView);
 
         if ("radio".equals(question.getQuestionType())) {
@@ -86,6 +91,7 @@ public class RubricFragment extends Fragment {
             for (String answer : question.getAnswers()) {
                 RadioButton radioButton = new RadioButton(getContext());
                 radioButton.setText(answer);
+                radioButton.setTextSize(16);  // Taille des réponses
                 radioGroup.addView(radioButton);
             }
             questionLayout.addView(radioGroup);
@@ -93,6 +99,7 @@ public class RubricFragment extends Fragment {
             for (String answer : question.getAnswers()) {
                 CheckBox checkBox = new CheckBox(getContext());
                 checkBox.setText(answer);
+                checkBox.setTextSize(16);  // Taille des réponses
                 questionLayout.addView(checkBox);
             }
         }

@@ -17,14 +17,15 @@
             android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="@color/colorPrimaryDark"
-            android:paddingBottom="8dp" />
+            android:background="@drawable/background_title"
+            android:paddingBottom="16dp" />
 
         <LinearLayout
             android:id="@+id/questions_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            />
+            android:background="@drawable/background_questions" />
 
         <Button
             android:id="@+id/next_button"
@@ -32,7 +33,7 @@
             android:layout_height="wrap_content"
             android:text="@string/suivant"
             android:layout_gravity="center_horizontal"
-            android:background="@color/colorAccent"
+            android:background="@drawable/button_background"
             android:textColor="@android:color/white"
             android:layout_marginTop="16dp" />
     </LinearLayout>

@@ -191,6 +191,7 @@
     <color name="colorPrimaryContainer">#bfe9ff</color>
     <color name="colorPrimaryDark">#F57C00</color>
     <color name="colorPrimaryInverse">#6dd2ff</color>
+    <color name="colorPrimaryLight">#BB86FC</color>
     <color name="colorSurface">#ffffff</color>
     <color name="colorSurfaceContainer">#f7f7f7</color>
     <color name="colorSurfaceContainerHigh">#f7f7f7</color>

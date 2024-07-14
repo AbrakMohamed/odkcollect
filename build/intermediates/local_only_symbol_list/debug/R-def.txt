@@ -51,6 +51,7 @@ color colorPrimary
 color colorPrimaryContainer
 color colorPrimaryDark
 color colorPrimaryInverse
+color colorPrimaryLight
 color colorSurface
 color colorSurfaceContainer
 color colorSurfaceContainerHigh
@@ -68,6 +69,10 @@ color slider_track_tint_list
 dimen text_size_small
 dimen touch_target_size
 drawable _j0gf03cb9c2bz5xfd6ptycfohe
+drawable background_form
+drawable background_questions
+drawable background_title
+drawable button_background
 drawable edit_text_background
 drawable ic_access_time
 drawable ic_account_circle

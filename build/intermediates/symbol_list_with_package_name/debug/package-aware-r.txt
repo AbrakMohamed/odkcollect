@@ -1563,6 +1563,7 @@ color colorPrimary
 color colorPrimaryContainer
 color colorPrimaryDark
 color colorPrimaryInverse
+color colorPrimaryLight
 color colorSurface
 color colorSurfaceContainer
 color colorSurfaceContainerHigh
@@ -3300,6 +3301,9 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_form
+drawable background_questions
+drawable background_title
 drawable bonuspack_bubble
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3310,6 +3314,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_background
 drawable center
 drawable checker_background
 drawable color_circle

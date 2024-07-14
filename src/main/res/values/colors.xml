@@ -8,6 +8,7 @@
     <color name="colorPrimary">#FF9800</color> <!-- Orange -->
     <color name="colorPrimaryDark">#F57C00</color> <!-- Darker Orange -->
     <color name="colorAccent">#000000</color> <!-- Black -->
+    <color name="colorPrimaryLight">#BB86FC</color>
 
 
     <color name="colorError">#ba1a1a</color>

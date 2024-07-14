@@ -1,506 +1,510 @@
 [
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/fragment_scan.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/fragment_scan.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\main_menu.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\main_menu.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/admin_password_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/admin_password_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\delete_form_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\delete_form_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ex_string_question_type.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ex_string_question_type.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\url_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\url_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_change_password.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_change_password.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\hierarchy_question_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\hierarchy_question_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/hierarchy_repeatable_group_instance_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/hierarchy_repeatable_group_instance_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\app_bar_with_progress_bar_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\app_bar_with_progress_bar_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/instance_uploader_list.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/instance_uploader_list.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\osm_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\osm_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/question_error_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/question_error_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\blank_form_list_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\blank_form_list_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/barcode_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/barcode_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\captioned_list_dialog.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\captioned_list_dialog.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/draw_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/draw_widget.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\select_list_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\select_list_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/waveform_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/waveform_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\select_one_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\select_one_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_chooser_list_item_map_button.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_chooser_list_item_map_button.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\main_menu_button.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\main_menu_button.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/arbitrary_file_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/arbitrary_file_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\quit_form_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\quit_form_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_web_view.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_web_view.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\permissions_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\permissions_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/custom_date_picker_dialog.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/custom_date_picker_dialog.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\geopoint_question.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\geopoint_question.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/transparent_progress_screen.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/transparent_progress_screen.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\select_multi_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\select_multi_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/about_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/about_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\range_widget_horizontal.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\range_widget_horizontal.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/widget_answer_text.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/widget_answer_text.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\identify_user_dialog.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\identify_user_dialog.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/video_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/video_widget.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\select_one_from_map_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\select_one_from_map_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/hierarchy_question_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/hierarchy_question_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ranking_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ranking_widget.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/printer_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/printer_widget.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\circular_progress_indicator.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\circular_progress_indicator.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/identify_user_dialog.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/identify_user_dialog.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_blank_form_list.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_blank_form_list.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_download_list.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_download_list.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ready_to_send_banner.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ready_to_send_banner.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_preferences_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_preferences_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\login_activity.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\login_activity.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/image_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/image_widget.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\qr_code_project_creator_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\qr_code_project_creator_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ranking_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ranking_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_home.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/password_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/password_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\date_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\date_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/main_menu.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/main_menu.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\fragment_rubric.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\fragment_rubric.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/range_widget_horizontal.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/range_widget_horizontal.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\printer_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\printer_widget.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/reset_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/reset_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\annotate_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\annotate_widget.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/project_list_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/project_list_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\audio_video_image_text_label.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\audio_video_image_text_label.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/select_minimal_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/select_minimal_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\question_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\question_widget.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/select_one_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/select_one_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_download_list.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_download_list.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/select_one_from_map_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/select_one_from_map_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_create_user.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_create_user.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/google_drive_deprecation_banner.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/google_drive_deprecation_banner.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\number_picker_dialog.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\number_picker_dialog.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_chooser_list.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_chooser_list.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\show_qrcode_fragment.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\show_qrcode_fragment.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/osm_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/osm_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\question_error_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\question_error_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/geopoint_question.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/geopoint_question.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\audio_controller_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\audio_controller_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/progress_bar_view.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/progress_bar_view.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\project_list_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\project_list_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/select_list_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/select_list_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_form.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_form.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/geotrace_question.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/geotrace_question.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_project_details.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_project_details.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/main_menu_button.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/main_menu_button.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\password_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\password_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_main.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\date_time_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\date_time_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ranking_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ranking_widget.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\item_saved_project.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\item_saved_project.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/audio_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/audio_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\barcode_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\barcode_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_form.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_form.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_map_activity.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_map_activity.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ex_video_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ex_video_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ex_image_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ex_image_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_chooser_list_item_multiple_choice.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_chooser_list_item_multiple_choice.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\bottom_sheet.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\bottom_sheet.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/audio_recording_controller_fragment.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/audio_recording_controller_fragment.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\admin_password_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\admin_password_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/permissions_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/permissions_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\reference_layer_help_footer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\reference_layer_help_footer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/server_auth_dialog.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/server_auth_dialog.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\range_widget_vertical.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\range_widget_vertical.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/audio_controller_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/audio_controller_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\background_audio_help_fragment_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\background_audio_help_fragment_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/trigger_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/trigger_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\geoshape_question.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\geoshape_question.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_home.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_home.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\checkbox.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\checkbox.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/annotate_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/annotate_widget.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_custom_scanner.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_custom_scanner.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/main_menu_activity.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/main_menu_activity.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\arbitrary_file_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\arbitrary_file_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/about_item_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/about_item_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\project_icon_view.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\project_icon_view.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/question_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/question_widget.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_preferences_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_preferences_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/bearing_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/bearing_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\audio_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\audio_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/url_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/url_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ex_video_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ex_video_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_custom_scanner.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_custom_scanner.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\tabs_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\tabs_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/start_new_from_button.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/start_new_from_button.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\select_image_map_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\select_image_map_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/changes_reason_dialog.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/changes_reason_dialog.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ex_string_question_type.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ex_string_question_type.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/odk_view.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/odk_view.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\audio_recording_controller_fragment.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\audio_recording_controller_fragment.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/date_time_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/date_time_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\image_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\image_widget.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/time_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/time_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\label_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\label_widget.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/circular_progress_indicator.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/circular_progress_indicator.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\custom_date_picker_dialog.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\custom_date_picker_dialog.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_chooser_list_item_icon.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_chooser_list_item_icon.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ex_printer_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ex_printer_widget.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/reference_layer_help_footer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/reference_layer_help_footer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\hierarchy_repeatable_group_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\hierarchy_repeatable_group_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ex_arbitrary_file_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ex_arbitrary_file_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\help_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\help_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/number_picker_dialog.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/number_picker_dialog.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\time_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\time_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/hierarchy_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/hierarchy_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\widget_answer_text.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\widget_answer_text.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_map_activity.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_map_activity.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\first_launch_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\first_launch_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/audio_video_image_text_label.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/audio_video_image_text_label.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/label_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/label_widget.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\audio_player_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\audio_player_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ready_to_send_banner.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ready_to_send_banner.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_chooser_list_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_chooser_list_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_saved_projects.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_saved_projects.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\select_minimal_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\select_minimal_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/login_activity.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/login_activity.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\hierarchy_group_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\hierarchy_group_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/select_image_map_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/select_image_map_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\progress_bar_view.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\progress_bar_view.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/item_project.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/item_project.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/current_project_menu_icon.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/current_project_menu_icon.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\fragment_scan.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\fragment_scan.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/captioned_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/captioned_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\google_drive_deprecation_banner.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\google_drive_deprecation_banner.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ex_image_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ex_image_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_web_view.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_web_view.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/show_qrcode_fragment.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/show_qrcode_fragment.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_chooser_list_item_multiple_choice.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_chooser_list_item_multiple_choice.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_create_user.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_create_user.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\hierarchy_repeatable_group_instance_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\hierarchy_repeatable_group_instance_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/qr_code_project_creator_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/qr_code_project_creator_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\map_button.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\map_button.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/tabs_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/tabs_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\transparent_progress_screen.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\transparent_progress_screen.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/bottom_sheet.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/bottom_sheet.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\reset_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\reset_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/app_bar_with_progress_bar_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/app_bar_with_progress_bar_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\current_project_menu_icon.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\current_project_menu_icon.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/hierarchy_group_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/hierarchy_group_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\select_minimal_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\select_minimal_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/first_launch_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/first_launch_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_entry.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_entry.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/audio_player_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/audio_player_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\about_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\about_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/hierarchy_repeatable_group_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/hierarchy_repeatable_group_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ex_arbitrary_file_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ex_arbitrary_file_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/captioned_list_dialog.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/captioned_list_dialog.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\main_menu_activity.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\main_menu_activity.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_chooser_list_item_text.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_chooser_list_item_text.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\item_project.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\item_project.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_detail.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_detail.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\odk_view.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\odk_view.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_blank_form_list.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_blank_form_list.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_saved_projects.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_saved_projects.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/date_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/date_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_detail.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_project_details.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_project_details.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\project_settings_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\project_settings_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/help_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/help_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\no_buttons_item_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\no_buttons_item_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/select_multi_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/select_multi_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\captioned_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\captioned_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/blank_form_list_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/blank_form_list_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ex_audio_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ex_audio_widget_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\select_one_from_map_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\select_one_from_map_widget_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\signature_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\signature_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\server_auth_dialog.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\server_auth_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\hierarchy_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\hierarchy_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\draw_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\draw_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_entry_end.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_entry_end.xml"
     },
     {
         "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/fragment_rubric.xml",
         "source": "org.odk.collect.android.collect_app-main-104:/layout/fragment_rubric.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/project_icon_view.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/project_icon_view.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_chooser_list_item_icon.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_chooser_list_item_icon.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/range_widget_vertical.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/range_widget_vertical.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\bearing_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\bearing_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/delete_form_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/delete_form_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\waveform_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\waveform_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_chooser_list_item.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_chooser_list_item.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\range_picker_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\range_picker_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/no_buttons_item_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/no_buttons_item_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\trigger_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\trigger_widget_answer.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/background_audio_help_fragment_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/background_audio_help_fragment_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\sort_item_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\sort_item_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/range_picker_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/range_picker_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\ranking_item.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\ranking_item.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ex_audio_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ex_audio_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\video_widget.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\video_widget.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/item_saved_project.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/item_saved_project.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_chooser_list_item_map_button.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_chooser_list_item_map_button.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/activity_profile.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/activity_profile.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_chooser_list_item_text.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_chooser_list_item_text.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/rating_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/rating_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\instance_uploader_list.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\instance_uploader_list.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_entry_end.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_entry_end.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\geotrace_question.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\geotrace_question.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/checkbox.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/checkbox.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\start_new_from_button.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\start_new_from_button.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/select_one_from_map_widget_answer.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/select_one_from_map_widget_answer.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\manual_project_creator_dialog_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\manual_project_creator_dialog_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/select_minimal_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/select_minimal_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\form_chooser_list.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\form_chooser_list.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/project_settings_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/project_settings_dialog_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\about_item_layout.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\about_item_layout.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/sort_item_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/sort_item_layout.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\changes_reason_dialog.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\changes_reason_dialog.xml"
     },
     {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/ex_printer_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/ex_printer_widget.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/quit_form_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/quit_form_dialog_layout.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/map_button.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/map_button.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/manual_project_creator_dialog_layout.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/manual_project_creator_dialog_layout.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/form_entry.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/form_entry.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/signature_widget.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/signature_widget.xml"
-    },
-    {
-        "merged": "org.odk.collect.android.collect_app-mergeDebugResources-101:/layout/geoshape_question.xml",
-        "source": "org.odk.collect.android.collect_app-main-104:/layout/geoshape_question.xml"
+        "merged": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-mergeDebugResources-101:\\layout\\rating_widget_answer.xml",
+        "source": "C:\\Users\\Test\\.gradle\\daemon\\8.0\\org.odk.collect.android.collect_app-main-104:\\layout\\rating_widget_answer.xml"
     }
 ]
